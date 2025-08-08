@@ -14,7 +14,7 @@
         <div class="container-fluid">
             <nav class="navigation d-flex align-items-center justify-content-between">
                 <a href="{{asset('/')}}" class="d-flex align-items-center">
-                    <img src="assets/media/user/logo.png" alt="/logo" class="header-logo">
+                    <img src="assets/media/brands/chanalogo.png" alt="/logo" class="header-logo" style="width: auto; height: 40px;">
                 </a>
                 <div class="menu-button-right">
                     <div class="main-menu__nav">
@@ -78,7 +78,7 @@
                             {{ __('Profile') }}
                         </x-dropdown-link>
 
-                        
+
                         <button wire:click="logout" class="w-full text-start">
                             <x-dropdown-link>
                                 {{ __('Log Out') }}

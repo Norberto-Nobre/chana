@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="{{asset('assets/css/app.css')}}">
 
     {{-- Cabeçalho opcional --}}
-    
+
 
     {{-- Conteúdo principal --}}
     <main class="w-full min-h-screen bg-gray-50 dark:bg-gray-800 p-0 m-0 ">
@@ -26,16 +26,14 @@
         <div class="container-fluid">
             <div class="row mb-16 row-gap-4">
                 <div class="col-lg-3">
-                    <div class="txt-block"> 
+                    <div class="txt-block">
                         <a href="index.html">
-                            <img src="assets/media/footer/logo.png" alt="logo">
-                            <img src="assets/media/footer/Frame-173.png" alt="Frame">
+                            <img src="assets/media/brands/chanalogo.png" alt="/logo" class="header-logo" style="width: auto; height: 40px;">
+                            {{-- <img src="assets/media/footer/Frame-173.png" alt="Frame"> --}}
                         </a>
                     </div>
-                    <p class="mb-32">Lorem ipsum dolor sit amet consectetur. Tellus varius senectus quis tellus ipsum
-                        nunc
-                        dictum sed. Nunc nam neque aliquam quis purus.</p>
-                    <h6 class="white mb-16">Subscribe To Our Newsletter</h6>
+                    <p class="mb-32">Chana Car é uma empresa especializada em aluguel de veículos, oferecendo conforto, segurança e flexibilidade para suas viagens.</p>
+                    <h6 class="white mb-16">Assine nossa newsletter</h6>
                     <form action="index.html" class="newsletter-form">
                         <input type="email" name="email" id="eMail" class="form-input"
                             placeholder=" Your email address">
@@ -58,36 +56,36 @@
                                 <h6 class="mb-32">Quick Links</h6>
                                 <ul class="unstyled">
                                     <li class="mb-12">
-                                        <a href="{{asset('/')}}">Inicio </a>
+                                        <a href="{{asset('/')}}">Home </a>
                                     </li>
                                     <li class="mb-12">
-                                        <a href="about.html">About Us</a>
+                                        <a href="{{asset('/about')}}">Sobre</a>
                                     </li>
                                     <li class="mb-12">
-                                        <a href="blogs.html">Blogs</a>
+                                        <a href="{{asset('/carros')}}">Carros</a>
                                     </li>
                                     <li class="mb-12">
-                                        <a href="contact.html">Contact Us</a>
+                                        <a href="{{asset('/contacto')}}">Contactos</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="links-block">
-                                <h6 class="mb-32">Information</h6>
+                                <h6 class="mb-32">Acesso</h6>
                                 <ul class="unstyled">
                                     <li class="mb-12">
-                                        <a href="rental.html">Rentals</a>
+                                        <a href="rental.html">Login</a>
                                     </li>
                                     <li class="mb-12">
-                                        <a href="book-now.html">Booking Form</a>
+                                        <a href="book-now.html">Register</a>
                                     </li>
                                     <li class="mb-12">
-                                        <a href="booking.html">Booking Details</a>
+                                        <a href="booking.html">Termos & Políticas</a>
                                     </li>
-                                    <li class="mb-12">
+                                    {{-- <li class="mb-12">
                                         <a href="index.html">Brands</a>
-                                    </li>
+                                    </li> --}}
                                 </ul>
                             </div>
                         </div>
@@ -96,29 +94,29 @@
                 <div class="col-lg-3 col-md-4">
                     <div class="links-block">
                         <div class="mb-24">
-                            <h6 class="mb-32">Contact info</h6>
+                            <h6 class="mb-32">Informações de Contacto</h6>
                         </div>
                         <ul class="unstyled">
                             <li class="mb-16">
                                 <div class="contact">
                                     <img src="assets/media/footer/uil-outgoing-call.png" alt="call-logo">
-                                    <a href="tel:+12345678">+123 (4567) -890</a>
+                                    <a href="tel:+244923482877">923482877 / 946320021</a>
                                 </div>
                             </li>
                             <li class="mb-16">
                                 <div class="contact">
                                     <img src="assets/media/footer/uil-map-marker.png" alt="logo">
-                                    <p>Main Street, New Jersey</p>
+                                    <p>Estrada principal do Lar do Patriota - Luanda</p>
                                 </div>
                             </li>
                             <li class="mb-24">
                                 <div class="contact">
                                     <img src="assets/media/footer/uil-envelope.png" alt="logo">
-                                    <a href="mailto:example@company.com">example@company.com</a>
+                                    <a href="mailto:rent@orgchana.com">rent@orgchana.com</a>
                                 </div>
                             </li>
                         </ul>
-                        <h5>Follow us!</h5>
+                        <h5>Siga-nos!</h5>
                         <div class="social-icons mb-12">
                             <ul class="d-flex unstyled gap-12">
                                 <li>
@@ -147,9 +145,9 @@
                 </div>
             </div>
             <div class="hr-line  bg-light-gray"></div>
-            <p class="mt-32 pb-32 text-center">@2025 All Rights Copyright <span
-                    class="fw-700 color-sec">RapidRide.</span>
-                Design & Developed By UIPARADOX</p>
+            <p class="mt-32 pb-32 text-center">@2025 All Rights <span
+                    class="fw-700 color-sec">CHANA-A-CAR.</span>
+                By EGATECLOUD</p>
         </div>
     </footer>
     <!--Footer-end -->

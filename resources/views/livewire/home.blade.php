@@ -1,16 +1,28 @@
 <!-- Removed invalid PHP function declaration. -->
 
 <div>
-    
+
 @include('pages.header')
 
     <!-- HERO BANNER START -->
-    <section class="hero-banner pt-80 mb-24">
-        <div class="container-fluid">
-            <h1 class="mb-16">Seamless Travel with Fast <br><span>RapidRide</span> Car Rental</h1>
-            <div class="map-image">
-                <img src="assets/media/hero/World_Map.png" alt="map-image">
-            </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active position-relative">
+      <img src="assets/media/cars/hero-group.png" alt="map-image" class="w-100">
+       <!-- Camada azul com transparência -->
+    <div class="overlay-blue"></div>
+      <div class="carousel-caption d-none d-md-block">
+       <div class="container-fluid">
+            <h4 class="mb-16">
+                <span class="text-white">Chana RENT-A-CAR </span><br>
+                <p class="text-white">Mobilidade que inspira confiança.</p>
+
+            </h4>
             <div class="btn-block row-gap-3 mb-48">
                 <div class="cus-btn">
                     <a href="{{asset('/carros')}}" class="btn-text">
@@ -35,9 +47,98 @@
                     </span>
                 </a>
             </div>
-            <img src="assets/media/hero/hero-group.png" alt="header" class="w-100">
         </div>
-    </section>
+      </div>
+    </div>
+    <div class="carousel-item position-relative">
+      <img src="assets/media/cars/hero-group.png" alt="map-image" class="w-100">
+       <!-- Camada azul com transparência -->
+    <div class="overlay-blue"></div>
+      <div class="carousel-caption d-none d-md-block">
+       <div class="carousel-caption d-none d-md-block">
+        <div class="container-fluid">
+            <h4 class="mb-16">
+                <span class="text-white">Chana RENT-A-CAR </span><br>
+                <p class="text-white">Mobilidade que inspira confiança.</p>
+
+            </h4>
+            <div class="btn-block row-gap-3 mb-48">
+                <div class="cus-btn">
+                    <a href="{{asset('/carros')}}" class="btn-text">
+                        <span class="btn-text">
+                            Todos Carros
+                            <i class="bi bi-car-front-fill"></i>
+                        </span>
+                        <span class="btn-text">
+                            Todos Carros
+                            <i class="bi bi-car-front-fill"></i>
+                        </span>
+                    </a>
+                </div>
+                <a href="{{asset('/contacto')}}" class="cus-btn-2">
+                    <span class="btn-text">
+                        Contacta-nos
+                        <i class="bi bi-telephone"></i>
+                    </span>
+                    <span class="btn-text">
+                        Contacta-nos
+                        <i class="bi bi-telephone"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+      </div>
+    </div>
+    <div class="carousel-item position-relative">
+    <img src="assets/media/cars/hero-group.png" alt="map-image" class="w-100">
+    <!-- Camada azul com transparência -->
+    <div class="overlay-blue"></div>
+    <div class="carousel-caption d-none d-md-block">
+        <div class="container-fluid">
+            <h4 class="mb-16">
+                <span class="text-white">Chana RENT-A-CAR </span><br>
+                <p class="text-white">Mobilidade que inspira confiança.</p>
+
+            </h4>
+            <div class="btn-block row-gap-3 mb-48">
+                <div class="cus-btn">
+                    <a href="{{asset('/carros')}}" class="btn-text">
+                        <span class="btn-text">
+                            Todos Carros
+                            <i class="bi bi-car-front-fill"></i>
+                        </span>
+                        <span class="btn-text">
+                            Todos Carros
+                            <i class="bi bi-car-front-fill"></i>
+                        </span>
+                    </a>
+                </div>
+                <a href="{{asset('/contacto')}}" class="cus-btn-2">
+                    <span class="btn-text">
+                        Contacta-nos
+                        <i class="bi bi-telephone"></i>
+                    </span>
+                    <span class="btn-text">
+                        Contacta-nos
+                        <i class="bi bi-telephone"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
     <!-- HERO BANNER END -->
 
     <!-- Booking-form area start -->
@@ -48,20 +149,20 @@
                     <div class="col-lg-12">
                         <div class="input-type">
                             <div class="w-100">
-                                <label for="Location1">Pick Up Location</label>
+                                <label for="Location1">Local de Retirada</label>
                                 <div class="input-box">
                                     <img src="assets/media/icons/location.png" alt="location">
-                                    <input type="text" id="Location1" placeholder="Pick-up-location" name="location">
+                                    <input type="text" id="Location1" placeholder="Local de Retirada" name="location">
                                 </div>
                             </div>
                             <div class="line-img">
                                 <img src="assets/media/icons/line-1.png" alt="line-img">
                             </div>
                             <div class="w-100">
-                                <label for="Location2">Drop Up Location</label>
+                                <label for="Location2">Local de Devolução</label>
                                 <div class="input-box">
                                     <img src="assets/media/icons/location.png" alt="location">
-                                    <input type="text" id="Location2" placeholder="Drop-up-location" name="location">
+                                    <input type="text" id="Location2" placeholder="Local de Devolução" name="location">
                                 </div>
                             </div>
                         </div>
@@ -69,11 +170,11 @@
                     <div class="col-lg-6">
                         <div class="input-type">
                             <div class="w-100">
-                                <label for="checkIn">Pick Up Date</label>
+                                <label for="checkIn">Data de Levantamento</label>
                                 <div class="input-box">
                                     <img src="assets/media/icons/calendar.png" alt="calendar">
                                     <input type="text" name="date" id="checkIn" class="sel-input date_to"
-                                        placeholder="Select Date">
+                                        placeholder="Escolha uma data">
                                 </div>
                             </div>
                             <div class="line-img">
@@ -83,7 +184,7 @@
                                 <div class="input-box">
                                     <img src="assets/media/icons/clock.png" alt="clock">
                                     <div class="timepicker_div">
-                                        <input type="text" class="timepicker" placeholder=" Time (Optional)">
+                                        <input type="text" class="timepicker" placeholder=" Hora (Opcional)">
                                     </div>
                                 </div>
                             </div>
@@ -92,11 +193,11 @@
                     <div class="col-lg-6">
                         <div class="input-type">
                             <div class="w-100">
-                                <label for="checkout">Drop Up Date</label>
+                                <label for="checkout">Data de Devolução</label>
                                 <div class="input-box">
                                     <img src="assets/media/icons/calendar.png" alt="calendar">
                                     <input type="text" name="date" id="checkout" class="sel-input date_from"
-                                        placeholder="Select Date">
+                                        placeholder="Escolha uma data">
                                 </div>
                             </div>
                             <div class="line-img">
@@ -106,7 +207,7 @@
                                 <div class="input-box">
                                     <img src="assets/media/icons/clock.png" alt="clock">
                                     <div class="timepicker_div">
-                                        <input type="text" class="timepicker" placeholder=" Time (Optional)">
+                                        <input type="text" class="timepicker" placeholder=" Hora (Opcional)">
                                     </div>
                                 </div>
                             </div>
@@ -136,23 +237,20 @@
             <div class="row row-gap-3 justify-content-center">
                 <div class="col-lg-4 col-md-6 justify-content-center">
                     <div class="info">
-                        <h3 class="black-2 mb-32">3+ Years</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur. Velit amet quam tristique aliquet urna proin nam
-                            pellentesque risus.</p>
+                        <h3 class="black-2 mb-32">10+ Anos</h3>
+                        <p>Mais de uma década oferecendo serviços com qualidade, confiança e dedicação ao cliente.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="info active">
-                        <h3 class="white mb-32">100+ cars</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur. Velit amet quam tristique aliquet urna proin nam
-                            pellentesque risus.</p>
+                        <h3 class="white mb-32">100+ carros</h3>
+                        <p>Frota diversificada e atualizada para atender diferentes necessidades com conforto e segurança.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 align-items-center">
                     <div class="info">
-                        <h3 class="black-2 mb-32">1500+ customers</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur. Velit amet quam tristique aliquet urna proin nam
-                            pellentesque risus.</p>
+                        <h3 class="black-2 mb-32">1500+ Clientes</h3>
+                        <p>Milhares de clientes satisfeitos que confiam e recomendam nossos serviços todos os dias.</p>
                     </div>
                 </div>
             </div>
@@ -165,10 +263,9 @@
         <div class="container-fluid">
             <div class="heading mb-48 mt-48">
                 <div class="description">
-                    <h2 class="mb-12">Top Pick Vehicles This Month</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur. Ut porttitor proin id sem <br
-                            class="d-sm-block d-none">lacus volutpat. Bibendum
-                        metus in imperdiet sed habitant.</p>
+                    <h2 class="mb-12">Veículos mais bem <br> escolhidos deste Mês</h2>
+                        <p>
+                        Descubra os modelos preferidos pelos nossos clientes nos últimos dias. Destaques em conforto, economia e desempenho. </p>
                 </div>
                 <a href="{{asset('/carros')}}" class="cus-btn">
                     <span class="btn-text">
@@ -187,7 +284,7 @@
                         <a href="{{asset('/carro-detalhes')}}">
                             <img src="assets/media/cars/image2.png" class="w-100" alt="car">
                             <h3 class="h3 title">Chevrolet</h3>
-                            <p class="mb-12">Available</p>
+                            <p class="mb-12">Disponivel</p>
                             <div class="icons mb-12">
                                 <div class="d-flex align-items-center gap-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -211,7 +308,7 @@
                             <div class="bottom-row mb">
                                 <div>
                                     <p>starts from</p>
-                                    <h6>$69 / Hour</h6>
+                                    <h6>kz 35.000 / Dia</h6>
                                 </div>
                                 <div class="cus-btn">
                                     <span class="btn-text">
@@ -232,7 +329,7 @@
                         <a href="{{asset('/carro-detalhes')}}">
                             <img src="assets/media/cars/iamge.png" class="w-100" alt="car">
                             <h3 class="h3 title">Toyota Camry</h3>
-                            <p class="mb-12">Available</p>
+                            <p class="mb-12">Disponivel</p>
                             <div class="icons mb-12">
                                 <div class="d-flex align-items-center gap-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -256,7 +353,7 @@
                             <div class="bottom-row">
                                 <div>
                                     <p>starts from</p>
-                                    <h6>$69 / Hour</h6>
+                                    <h6>kz 35.000 / Dia</h6>
                                 </div>
                                 <div class="cus-btn">
                                     <span class="btn-text">
@@ -277,7 +374,7 @@
                         <a href="{{asset('/carro-detalhes')}}">
                             <img src="assets/media/cars/iamge3.png" class="w-100" alt="car">
                             <h3 class="h3 title">Porsche Panamera</h3>
-                            <p class="mb-12">Available</p>
+                            <p class="mb-12">Disponivel</p>
                             <div class="icons mb-12">
                                 <div class="d-flex align-items-center gap-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -301,7 +398,7 @@
                             <div class="bottom-row">
                                 <div>
                                     <p>starts from</p>
-                                    <h6>$69 / Hour</h6>
+                                    <h6>kz 35.000 / Dia</h6>
                                 </div>
                                 <div class="cus-btn">
                                     <span class="btn-text">
@@ -322,7 +419,7 @@
                         <a href="{{asset('/carro-detalhes')}}">
                             <img src="assets/media/cars/iamge4.png" class="w-100" alt="car">
                             <h3 class="h3 title">Ford F-150S</h3>
-                            <p class="mb-12">Available</p>
+                            <p class="mb-12">Disponivel</p>
                             <div class="icons mb-12">
                                 <div class="d-flex align-items-center gap-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -346,7 +443,7 @@
                             <div class="bottom-row">
                                 <div>
                                     <p>starts from</p>
-                                    <h6>$69 / Hour</h6>
+                                    <h6>kz 35.000 / Dia</h6>
                                 </div>
                                 <div class="cus-btn">
                                     <span class="btn-text">
@@ -377,20 +474,17 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="txt-block">
-                            <h2 class="mb-12">Your Gateway to Seamless <br class="d-xl-block  d-none"> Adventures</h2>
-                            <p class="mb-32">Embark on your journey with ease and flexibility through RapidRide, your
-                                premier
-                                destination for rental cars. Whether you're planning a cross-country road trip, a
-                                weekend getaway, or simply need a reliable ride for your daily commute, RapidRide has
-                                you covered.</p>
+                            <h2 class="mb-12">Seu Portal para Aventuras Perfeitas<br class="d-xl-block  d-none"></h2>
+                            <p class="mb-32">Explore novos destinos com segurança, conforto e estilo. Nossa frota está pronta para transformar cada viagem em uma experiência inesquecível.</p>
+                            <p class="mb-32">
+                                Seja para uma viagem a trabalho, férias em família ou uma escapada de fim de semana, oferecemos opções que se adaptam a cada tipo de necessidade. Com atendimento de excelência e preços acessíveis, garantimos que sua aventura comece do jeito certo.</p>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <div class="pic">
                                         <img src="assets/media/icons/vector.png" alt="plane">
                                         <div class="text">
-                                            <h6>Airport Pick-ups.</h6>
-                                            <p class="mb-24">Embark on your journey with ease and flexibility through
-                                                RapidRide.</p>
+                                            <h6>Recepção em Aeroportos</h6>
+                                            <p class="mb-24">Comece sua viagem com comodidade. Te buscamos no aeroporto com pontualidade e conforto.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -398,9 +492,8 @@
                                     <div class="icon">
                                         <img src="assets/media/icons/vector2.png" alt="earth">
                                         <div class="text">
-                                            <h6>Global Network.</h6>
-                                            <p class="mb-24">Embark on your journey with ease and flexibility through
-                                                RapidRide.</p>
+                                            <h6>Presença em Diversas Regiões</h6>
+                                            <p class="mb-24">Conte com uma rede de atendimento preparada para te servir onde você estiver.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -408,8 +501,8 @@
                                     <div class="pic">
                                         <img src="assets/media/icons/Vector3.png" alt="people">
                                         <div class="text">
-                                            <h6>Secure Payment Method.</h6>
-                                            <p>Embark on your journey with ease and flexibility through RapidRide.</p>
+                                            <h6>Pagamento Seguro</h6>
+                                            <p>Transações protegidas com tecnologia de ponta. Sua segurança é prioridade.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -417,9 +510,8 @@
                                     <div class="icon">
                                         <img src="assets/media/icons/Vector4.png" alt="car">
                                         <div class="text">
-                                            <h6>Clean And Sanitized Cars.</h6>
-                                            <p class="mb-8">Embark on your journey with ease and flexibility through
-                                                RapidRide.</p>
+                                            <h6> Carros Higienizados e Prontos</h6>
+                                            <p class="mb-8">Veículos limpos e desinfetados com rigor para garantir sua saúde e bem-estar.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -447,9 +539,8 @@
         <div class="container-fluid">
             <div class="txts mb-48">
                 <div class="descript">
-                    <h2 class="mb-12">Choose Your Ride</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur. Velit amet quam tristique aliquet urna proin nam
-                        pellentesque risus..</p>
+                    <h2 class="mb-12">Escolha o seu Carro</h2>
+                    <p>Encontre o veículo ideal para cada momento. De compactos econômicos <br> a SUVs confortáveis — temos a opção perfeita para sua necessidade.</p>
                 </div>
                 <a href="rental.html" class="cus-btn">
                     <span class="btn-text">
@@ -469,7 +560,7 @@
                         <a href="{{asset('/carro-detalhes')}}">
                             <img src="assets/media/cars/image2.png" class="w-100" alt="car">
                             <h3 class="h3 title">Chevrolet</h3>
-                            <p class="mb-12">Available</p>
+                            <p class="mb-12">Disponivel</p>
                             <div class="icons mb-12">
                                 <div class="d-flex align-items-center gap-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -493,7 +584,7 @@
                             <div class="bottom-row mb">
                                 <div>
                                     <p>starts from</p>
-                                    <h6>$69 / Hour</h6>
+                                    <h6>kz 35.000 / Dia</h6>
                                 </div>
                                 <div class="cus-btn">
                                     <span class="btn-text">
@@ -514,7 +605,7 @@
                         <a href="{{asset('/carro-detalhes')}}">
                             <img src="assets/media/cars/iamge.png" class="w-100" alt="car">
                             <h3 class="h3 title">Toyota Camry</h3>
-                            <p class="mb-12">Available</p>
+                            <p class="mb-12">Disponivel</p>
                             <div class="icons mb-12">
                                 <div class="d-flex align-items-center gap-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -538,7 +629,7 @@
                             <div class="bottom-row">
                                 <div>
                                     <p>starts from</p>
-                                    <h6>$69 / Hour</h6>
+                                    <h6>kz 35.000 / Dia</h6>
                                 </div>
                                 <div class="cus-btn">
                                     <span class="btn-text">
@@ -559,7 +650,7 @@
                         <a href="{{asset('/carro-detalhes')}}">
                             <img src="assets/media/cars/iamge3.png" class="w-100" alt="car">
                             <h3 class="h3 title">Porsche Panamera</h3>
-                            <p class="mb-12">Available</p>
+                            <p class="mb-12">Disponivel</p>
                             <div class="icons mb-12">
                                 <div class="d-flex align-items-center gap-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -583,7 +674,7 @@
                             <div class="bottom-row">
                                 <div>
                                     <p>starts from</p>
-                                    <h6>$69 / Hour</h6>
+                                    <h6>kz 35.000 / Dia</h6>
                                 </div>
                                 <div class="cus-btn">
                                     <span class="btn-text">
@@ -604,7 +695,7 @@
                         <a href="{{asset('/carro-detalhes')}}">
                             <img src="assets/media/cars/iamge4.png" class="w-100" alt="car">
                             <h3 class="h3 title">Ford F-150S</h3>
-                            <p class="mb-12">Available</p>
+                            <p class="mb-12">Disponivel</p>
                             <div class="icons mb-12">
                                 <div class="d-flex align-items-center gap-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -628,7 +719,7 @@
                             <div class="bottom-row">
                                 <div>
                                     <p>starts from</p>
-                                    <h6>$69 / Hour</h6>
+                                    <h6>kz 35.000 / Dia</h6>
                                 </div>
                                 <div class="cus-btn">
                                     <span class="btn-text">
@@ -654,9 +745,8 @@
         <div class="container-fluid ">
             <div class="ranges mt-48">
                 <div class="txt">
-                    <h2 class="mb-12">Wide Range Of Vehicles</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur. Velit amet quam tristique aliquet urna proin nam
-                        pellentesque risus</p>
+                    <h2 class="mb-12">Ampla gama de veículos</h2>
+                    <p>Oferecemos uma variedade completa de carros para todos os estilos e necessidades. <br> Desde modelos compactos ideais para o dia a dia até SUVs robustos para aventuras mais longas.</p>
                 </div>
                 <div class="row row-gap-4">
                     <div class="col-lg-4 col-md-6 col-sm-6">
@@ -805,9 +895,9 @@
                 <div class="txt">
                     <div class="d-flex flex-md-row flex-column gap-24 align-items-md-center justify-content-between">
                         <div>
-                            <h2 class="mb-12">Hear From Our Customers</h2>
-                            <p class="">Lorem ipsum dolor sit amet consectetur. Suspendisse urna in gravida <br
-                                    class="d-sm-block d-none"> fames bibendum ornare viverra.</p>
+                            <h2 class="mb-12">Ouça nossos clientes</h2>
+                            <p class="">Depoimentos reais que mostram por que somos a escolha certa para sua
+                                <br class="d-sm-block d-none">próxima viagem. fames bibendum ornare viverra.</p>
                         </div>
                         <div class="slider-arrows mt-sm-0 mt-48">
                             <a href="javascript:;" class="arrow-btn btn-prev" data-slide="testimonials-slider">
@@ -833,7 +923,7 @@
                     <div class="col-12">
                         <div class="review-card">
                             <div class="img-block">
-                                <img src="assets/media/teams/team-1.png" alt="">
+                                <img src="assets/media/teams/user2.jpeg" alt="">
                             </div>
                             <div class="text-block">
                                 <img src="assets/media/icons/quotes.png" alt="">
@@ -846,7 +936,7 @@
                     <div class="col-12">
                         <div class="review-card">
                             <div class="img-block">
-                                <img src="assets/media/teams/team-2.png" alt="">
+                                <img src="assets/media/teams/user2.jpeg" alt="">
                             </div>
                             <div class="text-block">
                                 <img src="assets/media/icons/quotes.png" alt="">
@@ -859,7 +949,7 @@
                     <div class="col-12">
                         <div class="review-card">
                             <div class="img-block">
-                                <img src="assets/media/teams/team-3.png" alt="">
+                                <img src="assets/media/teams/user1.png" alt="">
                             </div>
                             <div class="text-block">
                                 <img src="assets/media/icons/quotes.png" alt="">
@@ -872,7 +962,7 @@
                     <div class="col-12">
                         <div class="review-card">
                             <div class="img-block">
-                                <img src="assets/media/teams/team-4.png" alt="">
+                                <img src="assets/media/teams/user2.jpeg" alt="">
                             </div>
                             <div class="text-block">
                                 <img src="assets/media/icons/quotes.png" alt="">
@@ -885,7 +975,7 @@
                     <div class="col-12">
                         <div class="review-card">
                             <div class="img-block">
-                                <img src="assets/media/teams/team-1.png" alt="">
+                                <img src="assets/media/teams/user2.jpeg" alt="">
                             </div>
                             <div class="text-block">
                                 <img src="assets/media/icons/quotes.png" alt="">
@@ -898,7 +988,7 @@
                     <div class="col-12">
                         <div class="review-card">
                             <div class="img-block">
-                                <img src="assets/media/teams/team-2.png" alt="">
+                                <img src="assets/media/teams/user1.png" alt="">
                             </div>
                             <div class="text-block">
                                 <img src="assets/media/icons/quotes.png" alt="">
@@ -911,7 +1001,7 @@
                     <div class="col-12">
                         <div class="review-card">
                             <div class="img-block">
-                                <img src="assets/media/teams/team-3.png" alt="">
+                                <img src="assets/media/teams/user2.jpeg" alt="">
                             </div>
                             <div class="text-block">
                                 <img src="assets/media/icons/quotes.png" alt="">
@@ -924,7 +1014,7 @@
                     <div class="col-12">
                         <div class="review-card">
                             <div class="img-block">
-                                <img src="assets/media/teams/team-4.png" alt="">
+                                <img src="assets/media/teams/user2.jpeg" alt="">
                             </div>
                             <div class="text-block">
                                 <img src="assets/media/icons/quotes.png" alt="">
@@ -941,7 +1031,7 @@
     <!-- Customer-area-end -->
 
     <!-- Blogs-area-start -->
-    <section class="blogs my-80">
+    {{-- <section class="blogs my-80">
         <div class="container-fluid">
             <div class="blog-card">
                 <div class="txt">
@@ -1110,11 +1200,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--Blogs-area-end-->
 
     <!--Booking-form-start -->
-    <section class="booking-form py-80">
+    {{-- <section class="booking-form py-80">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -1221,6 +1311,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- Booking-form-end -->
 </div>

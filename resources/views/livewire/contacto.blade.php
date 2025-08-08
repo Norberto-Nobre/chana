@@ -4,11 +4,11 @@
     <!-- About-area start -->
     <section class="title-banner-5">
         <div class="txt">
-            <h2 class="white text-center">Contact us</h2>
+            <h2 class="white text-center">Contacto</h2>
             <div class="txt-block text-center white">
                 <a href="index.html">Home</a>
                 <i class="fa-solid fa-greater-than"></i>
-                <a href="about.html">Contact us</a>
+                <a href="about.html">Contacto</a>
             </div>
         </div>
     </section>
@@ -21,29 +21,29 @@
                 <div class="col-lg-6  col-md-6 col-sm-6   my-40">
                     <form>
                         <div class="topic">
-                            <h6 class="mb-12">Select a topic</h6>
+                            <h6 class="mb-12">Seleciona o Assunto</h6>
                             <div class="d-flex  gap-24 align-items-center flex-wrap">
                                 <div class="flex-shrink-0">
                                     <input type="radio" id="Signing" name="topic" class="d-none" checked>
-                                    <label for="Signing"> Signing in</label>
+                                    <label for="Signing"> Entrando</label>
                                 </div>
                                 <div class="flex-shrink-0">
                                     <input type="radio" id="booking" name="topic" class="d-none">
-                                    <label for="booking"> Booking issue</label>
+                                    <label for="booking"> Problema com a reserva</label>
                                 </div>
                                 <div class="flex-shrink-0">
                                     <input type="radio" id="report" name="topic" class="d-none">
-                                    <label for="report"> Report a correction</label>
+                                    <label for="report"> Relatar uma correção</label>
                                 </div>
                                 <div class="flex-shrink-0">
                                     <input type="radio" id="work" name="topic" class="d-none">
-                                    <label for="work"> Booking issue</label>
+                                    <label for="work"> Trabalhe conosco</label>
                                 </div>
                                 <div class="flex-shrink-0">
                                     <input type="radio" id="us" name="topic" class="d-none">
-                                    <label for="us">Work with us</label>
+                                    <label for="us">Precisa de algo mais</label>
                                 </div>
-                                <div class="flex-shrink-0">
+                                {{-- <div class="flex-shrink-0">
                                     <input type="radio" id="in" name="topic" class="d-none">
                                     <label for="in"> Signing in</label>
                                 </div>
@@ -54,16 +54,18 @@
                                 <div class="flex-shrink-0">
                                     <input type="radio" id="something" name="topic" class="d-none">
                                     <label for="something"> Need something else</label>
-                                </div>
+                                </div> --}}
                             </div>
-                            <h6 class="mt-24 mb-24">Or tell us what you need help with:</h6>
-                            <input type="text" placeholder="Your Name *">
+                            <h6 class="mt-24 mb-24">Fale conosco</h6>
+                            <input class="mb-4" type="text" placeholder="Your Name ">
+                            <input class="mb-4" type="email" placeholder="Email *">
+                            <input class="mb-4" type="text" placeholder="contacto *">
                             <a href="contact.html" class="cus-btn mt-24">
                                 <span class="btn-text">
-                                    Get Help
+                                    Envia
                                 </span>
                                 <span>
-                                    Get Help
+                                    Enviar
                                 </span>
                             </a>
                         </div>
@@ -84,34 +86,34 @@
                 <div class="col-xl-3 col-lg-6  col-md-6 col-sm-6">
                     <div class="banner">
                         <i class="fa-solid fa-phone-volume mb-24"></i>
-                        <h5 class="mb-16">Phone Number</h5>
-                        <P>(011) 333-1122</P>
+                        <h5 class="mb-16">Contactos</h5>
+                        <P>923482877 / 946320021</P>
                     </div>
                 </div>
                 <div class="col-xl-3  col-lg-6 col-md-6 col-sm-6">
                     <div class="banner">
                         <i class="fa-thin fa-envelope mb-24"></i>
                         <h5 class="mb-16">Email</h5>
-                        <P>example@somemail.com</P>
+                        <P>rent@orgchana.com</P>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                     <div class="banner">
                         <i class="fa-light fa-location-dot mb-24"></i>
                         <h5 class="mb-16">Location</h5>
-                        <P>Old Brookfeild, USA</P>
+                        <P>Estrada principal do Lar do Patriota - Luanda</P>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                     <div class="banner">
                         <i class="fa-regular fa-clock mb-24"></i>
-                        <h5 class="mb-16">Opening Hours</h5>
-                        <p>Mon-Sat (09 AM - 06PM)<p>
+                        <h5 class="mb-16">Horário de funcionamento</h5>
+                        <p>Mon-Sat (08H:30 - 16H:30)<p>
                     </div>
                 </div>
             </div>
         </div>
-        
+
     </section>
     <!-- vicheles-end -->
 </div>

@@ -4,11 +4,11 @@
      <!-- About-area start -->
     <section class="title-banner">
         <div class="txt">
-            <h2 class="white text-center">Rental</h2>
+            <h2 class="white text-center">Nossos Carros</h2>
             <div class="txt-block text-center white">
                 <a href="index.html">Home</a>
                 <i class="fa-solid fa-greater-than"></i>
-                <a href="about.html">Rental</a>
+                <a href="about.html">Nossos carros</a>
             </div>
         </div>
     </section>
@@ -19,9 +19,8 @@
         <div class="container-fluid">
             <div class="heads mb-48">
                 <div class="file">
-                    <h2 class="mb-12">Choose Your Ride</h2>
-                    <p class="dark-gray">Lorem ipsum dolor sit amet consectetur. Velit amet quam tristique <br class="d-xl-block d-none"> aliquet urna proin nam
-                        pellentesque risus..</p>
+                    <h2 class="mb-12">Escolha um Carro</h2>
+                    <p class="dark-gray">Navegue por nossa frota e encontre o veículo ideal para sua viagem. <br> Temos opções para todos os estilos, ocasiões e orçamentos.</p>
                 </div>
                 <div class="Search-field">
                     <input type="text" class="search-bar" placeholder="Search Now">
@@ -35,7 +34,7 @@
                       <form action="{{asset('/carro-detalhes')}}">
                             <div class="sidebar-block">
                                 <div class="input-box">
-                                    <label for="location1">Pick Up Location</label>
+                                    <label for="location1">Local de Retirada</label>
                                     <div class="d-flex gap-4">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24"
                                             viewBox="0 0 20 24" fill="none">
@@ -43,14 +42,14 @@
                                                 d="M17.0001 3.22664C15.1436 1.37013 12.6256 0.327148 10.0001 0.327148C7.37457 0.327148 4.8566 1.37013 3.00008 3.22664C1.14357 5.08316 0.100586 7.60113 0.100586 10.2266C0.100586 12.8522 1.14357 15.3701 3.00008 17.2266L9.14841 23.3866C9.25687 23.496 9.38591 23.5828 9.52807 23.642C9.67024 23.7012 9.82273 23.7317 9.97675 23.7317C10.1308 23.7317 10.2832 23.7012 10.4254 23.642C10.5676 23.5828 10.6966 23.496 10.8051 23.3866L17.0001 17.1683C18.8488 15.3195 19.8875 12.812 19.8875 10.1975C19.8875 7.58291 18.8488 5.07543 17.0001 3.22664ZM15.3317 15.5L10.0001 20.855L4.66841 15.5C3.61508 14.4457 2.89797 13.1028 2.60772 11.641C2.31748 10.1792 2.46713 8.66418 3.03777 7.28744C3.6084 5.91069 4.5744 4.73403 5.81365 3.9062C7.0529 3.07837 8.50976 2.63652 10.0001 2.63652C11.4904 2.63652 12.9473 3.07837 14.1865 3.9062C15.4258 4.73403 16.3918 5.91069 16.9624 7.28744C17.533 8.66418 17.6827 10.1792 17.3924 11.641C17.1022 13.1028 16.3851 14.4457 15.3317 15.5ZM6.50008 6.64498C5.55825 7.58971 5.02937 8.8693 5.02937 10.2033C5.02937 11.5373 5.55825 12.8169 6.50008 13.7616C7.1998 14.4626 8.09093 14.9412 9.06167 15.1376C10.0324 15.334 11.0395 15.2393 11.9567 14.8655C12.8738 14.4917 13.6601 13.8553 14.217 13.0363C14.7738 12.2172 15.0764 11.252 15.0867 10.2616C15.092 9.60038 14.9646 8.94478 14.7121 8.3336C14.4596 7.72241 14.0872 7.16806 13.6167 6.70331C13.1544 6.23032 12.603 5.85344 11.9944 5.59435C11.3858 5.33527 10.732 5.1991 10.0705 5.19368C9.40912 5.18825 8.75315 5.31369 8.14038 5.56276C7.52761 5.81184 6.97015 6.17963 6.50008 6.64498ZM11.9717 12.105C11.5296 12.5538 10.9453 12.8352 10.3187 12.9009C9.69213 12.9667 9.06215 12.8127 8.53651 12.4654C8.01086 12.1181 7.62218 11.5989 7.43692 10.9967C7.25167 10.3946 7.28134 9.74672 7.52086 9.16399C7.76039 8.58126 8.1949 8.09983 8.7501 7.802C9.30529 7.50418 9.94671 7.40845 10.5647 7.5312C11.1826 7.65394 11.7388 7.98753 12.138 8.47493C12.5372 8.96233 12.7548 9.57327 12.7534 10.2033C12.7364 10.9235 12.4343 11.6074 11.9134 12.105H11.9717Z"
                                                 fill="#2D74BA" />
                                         </svg>
-                                        <input type="text" id="location1" placeholder="Pick up location"
+                                        <input type="text" id="location1" placeholder="Local de Retirada"
                                             name="location">
                                     </div>
                                 </div>
                                 <div class="input-box">
                                     <div class="row align-items-center row-gap-3">
                                         <div class="col-xxl-6">
-                                            <label>Pick Up Date</label>
+                                            <label>Data de Levantamento</label>
                                             <div class="d-flex gap-10">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none">
@@ -59,7 +58,7 @@
                                                         fill="#2D74BA" />
                                                 </svg>
                                                 <input type="text" name="date" id="checkIn" class="sel-input date_to"
-                                                    placeholder="Pick-up-date">
+                                                    placeholder="Data de Levantamento">
                                             </div>
                                         </div>
                                         <div class="col-xxl-6">
@@ -77,11 +76,11 @@
                                     <label class="material-checkbox mb-16">
                                         <input type="checkbox">
                                         <span class="checkmark"></span>
-                                        Return to a different address
+                                            Retornar para um endereço diferente
                                     </label>
                                 </div>
                                 <div class="input-box">
-                                    <label for="location-5">Drop Up Location</label>
+                                    <label for="location-5">Local de Devolução</label>
                                     <div class="d-flex gap-4">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24"
                                             viewBox="0 0 20 24" fill="none">
@@ -89,14 +88,14 @@
                                                 d="M17.0001 3.22664C15.1436 1.37013 12.6256 0.327148 10.0001 0.327148C7.37457 0.327148 4.8566 1.37013 3.00008 3.22664C1.14357 5.08316 0.100586 7.60113 0.100586 10.2266C0.100586 12.8522 1.14357 15.3701 3.00008 17.2266L9.14841 23.3866C9.25687 23.496 9.38591 23.5828 9.52807 23.642C9.67024 23.7012 9.82273 23.7317 9.97675 23.7317C10.1308 23.7317 10.2832 23.7012 10.4254 23.642C10.5676 23.5828 10.6966 23.496 10.8051 23.3866L17.0001 17.1683C18.8488 15.3195 19.8875 12.812 19.8875 10.1975C19.8875 7.58291 18.8488 5.07543 17.0001 3.22664ZM15.3317 15.5L10.0001 20.855L4.66841 15.5C3.61508 14.4457 2.89797 13.1028 2.60772 11.641C2.31748 10.1792 2.46713 8.66418 3.03777 7.28744C3.6084 5.91069 4.5744 4.73403 5.81365 3.9062C7.0529 3.07837 8.50976 2.63652 10.0001 2.63652C11.4904 2.63652 12.9473 3.07837 14.1865 3.9062C15.4258 4.73403 16.3918 5.91069 16.9624 7.28744C17.533 8.66418 17.6827 10.1792 17.3924 11.641C17.1022 13.1028 16.3851 14.4457 15.3317 15.5ZM6.50008 6.64498C5.55825 7.58971 5.02937 8.8693 5.02937 10.2033C5.02937 11.5373 5.55825 12.8169 6.50008 13.7616C7.1998 14.4626 8.09093 14.9412 9.06167 15.1376C10.0324 15.334 11.0395 15.2393 11.9567 14.8655C12.8738 14.4917 13.6601 13.8553 14.217 13.0363C14.7738 12.2172 15.0764 11.252 15.0867 10.2616C15.092 9.60038 14.9646 8.94478 14.7121 8.3336C14.4596 7.72241 14.0872 7.16806 13.6167 6.70331C13.1544 6.23032 12.603 5.85344 11.9944 5.59435C11.3858 5.33527 10.732 5.1991 10.0705 5.19368C9.40912 5.18825 8.75315 5.31369 8.14038 5.56276C7.52761 5.81184 6.97015 6.17963 6.50008 6.64498ZM11.9717 12.105C11.5296 12.5538 10.9453 12.8352 10.3187 12.9009C9.69213 12.9667 9.06215 12.8127 8.53651 12.4654C8.01086 12.1181 7.62218 11.5989 7.43692 10.9967C7.25167 10.3946 7.28134 9.74672 7.52086 9.16399C7.76039 8.58126 8.1949 8.09983 8.7501 7.802C9.30529 7.50418 9.94671 7.40845 10.5647 7.5312C11.1826 7.65394 11.7388 7.98753 12.138 8.47493C12.5372 8.96233 12.7548 9.57327 12.7534 10.2033C12.7364 10.9235 12.4343 11.6074 11.9134 12.105H11.9717Z"
                                                 fill="#2D74BA" />
                                         </svg>
-                                        <input type="text" id="location-5" placeholder="Drop up location"
+                                        <input type="text" id="location-5" placeholder="Local de Devolução"
                                             name="location">
                                     </div>
                                 </div>
                                 <div class="input-box">
                                     <div class="row align-items-center row-gap-3">
                                         <div class="col-xxl-6">
-                                            <label>Drop Up Date</label>
+                                            <label>Data de Devolução</label>
                                             <div class="d-flex gap-10">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none">
@@ -105,7 +104,7 @@
                                                         fill="#2D74BA" />
                                                 </svg>
                                                 <input type="text" name="date" id="checkIn1" class="sel-input date_to"
-                                                    placeholder="Drop-up-date">
+                                                    placeholder="Data de Devolução">
                                             </div>
                                         </div>
                                         <div class="col-xxl-6 d-flex">
@@ -120,7 +119,7 @@
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit" class="cus-btn">
+                                    {{-- <button type="submit" class="cus-btn">
                                         <span class="btn-text">
                                             Search now
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -139,23 +138,23 @@
                                                     fill="white" />
                                             </svg>
                                         </span>
-                                    </button>
+                                    </button> --}}
                                 </div>
                             </div>
                        </form>
                         <div class="bg-quant sidebar-block-2 mt-24">
-                            <h5 class="mb-12 text-center">Filter</h5>
+                            <h5 class="mb-12 text-center">Filtrar por</h5>
                             <div class="sidebar-widget">
                                 <div class="widget-title-row mb-24">
                                     <div class="checkbox">
-                                        <h6>Price Range</h6>
+                                        <h6>Preço</h6>
                                     </div>
                                 </div>
                                 <div class="widget-content-block">
                                     <div class="wrapper">
                                         <div class="price-input">
                                             <div class="field">
-                                                <span class="color-primary">$</span>
+                                                <span class="color-primary">Kz</span>
                                                 <input type="number" class="input-min" value="2500">
                                             </div>
                                         </div>
@@ -172,7 +171,7 @@
                                         </div>
                                         <div class="price-input">
                                             <div class="field">
-                                                <span class="color-primary">$</span>
+                                                <span class="color-primary">Kz</span>
                                                 <input type="number" class="input-max" value="7500">
                                             </div>
                                         </div>
@@ -181,7 +180,7 @@
                             </div>
                             <div class="checkbox">
                                 <div class="widget-title-row mb-16">
-                                    <h6>Product Type</h6>
+                                    <h6>Modelo</h6>
                                 </div>
                                 <div class="widget-content-block">
                                     <ul class="filter-list unstyled">
@@ -206,7 +205,7 @@
                             </div>
                             <div class="checkbox">
                                 <div class="widget-title-row mb-16">
-                                    <h6>Seating Capacity</h6>
+                                    <h6>Capacidade de Passageiros</h6>
                                 </div>
                                 <div class="widget-content-block">
                                     <ul class="filter-list unstyled">
@@ -231,7 +230,7 @@
                             </div>
                             <div class="checkbox">
                                 <div class="widget-title-row mb-16">
-                                    <h6>Product Type</h6>
+                                    <h6>Tipo de Combustível</h6>
                                 </div>
                                 <div class="widget-content-block">
                                     <ul class="filter-list unstyled">
@@ -256,7 +255,7 @@
                             </div>
                             <div class="checkbox">
                                 <div class="widget-title-row mb-16">
-                                    <h6>Transmission</h6>
+                                    <h6>Transmissão</h6>
                                 </div>
                                 <div class="widget-content-block">
                                     <ul class="filter-list unstyled">
@@ -264,7 +263,7 @@
                                             <label class="material-checkbox">
                                                 <input type="checkbox">
                                                 <span class="checkmark"></span>
-                                                Automatic
+                                                Automático
                                             </label>
                                             <p class="light-gray">(05)</p>
                                         </li>
@@ -313,7 +312,7 @@
                                     <div class="bottom-row">
                                         <div>
                                             <p>starts from</p>
-                                            <h6>$69 / Hour</h6>
+                                            <h6>kz 35.000 / Dia</h6>
                                         </div>
                                         <div class="cus-btn">
                                             <span class="btn-text">
@@ -358,7 +357,7 @@
                                     <div class="bottom-row">
                                         <div>
                                             <p>starts from</p>
-                                            <h6>$69/ Hour</h6>
+                                            <h6>kz 35.000 / Dia</h6>
                                         </div>
                                         <div class="cus-btn">
                                             <span class="btn-text">
@@ -403,7 +402,7 @@
                                     <div class="bottom-row">
                                         <div>
                                             <p>starts from</p>
-                                            <h6>$69 / Hour</h6>
+                                            <h6>kz 35.000 / Dia</h6>
                                         </div>
                                         <div class="cus-btn">
                                             <span class="btn-text">
@@ -448,7 +447,7 @@
                                     <div class="bottom-row">
                                         <div>
                                             <p>starts from</p>
-                                            <h6>$69 / Hour</h6>
+                                            <h6>kz 35.000 / Dia</h6>
                                         </div>
                                         <div class="cus-btn">
                                             <span class="btn-text">
@@ -493,7 +492,7 @@
                                     <div class="bottom-row">
                                         <div>
                                             <p>starts from</p>
-                                            <h6>$69 / Hour</h6>
+                                            <h6>kz 35.000 / Dia</h6>
                                         </div>
                                         <div class="cus-btn">
                                             <span class="btn-text">
@@ -538,7 +537,7 @@
                                     <div class="bottom-row">
                                         <div>
                                             <p>starts from</p>
-                                            <h6>$69 / Hour</h6>
+                                            <h6>kz 35.000 / Dia</h6>
                                         </div>
                                         <div class="cus-btn">
                                             <span class="btn-text">

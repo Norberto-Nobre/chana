@@ -4,11 +4,11 @@
      <!-- About-area start -->
     <section class="title-banner">
         <div class="txt">
-            <h2 class="white text-center">About Us</h2>
+            <h2 class="white text-center">Sobre Nós</h2>
             <div class="txt-block text-center white">
                 <a href="index.html">Home</a>
                 <i class="fa-solid fa-greater-than"></i>
-                <a href="about.html">About us</a>
+                <a href="about.html">Sobre nós</a>
             </div>
         </div>
     </section>
@@ -20,28 +20,28 @@
             <div class="txt">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
-                        <h2 class=" text-center black-2 mb-48">Unveiling the Story Behind RapidRide<br><span>RapidRide</span> Car Rental</h2>
-                        <h6 class="mb-24">what we offer</h6>
+                        <h2 class=" text-center black-2 mb-48">Confiança - Segurança <br><span> consigo, sempre</span></h2>
+                        <h6 class="mb-24">O que oferecemos</h6>
                         <ul class="offers">
                             <li>
                                 <img src="assets/media/icons/uil-check-circle.png" alt="circle">
-                                <p>Comfortable Rides</p>
+                                <p>Viagens confortáveis</p>
                             </li>
                             <li>
                                 <img src="assets/media/icons/uil-check-circle.png" alt="circle">
-                                <p>Top of the line Cars</p>
+                                <p>Carros de primeira linha</p>
                             </li>
                             <li>
                                 <img src="assets/media/icons/uil-check-circle.png" alt="circle">
-                                <p>Secure Payment Options</p>
+                                <p>Opções de pagamento seguras</p>
                             </li>
                             <li>
                                 <img src="assets/media/icons/uil-check-circle.png" alt="circle">
-                                <p>Variety of options to choose from</p>
+                                <p>Variedade de opções para escolher</p>
                             </li>
                             <li>
                                 <img src="assets/media/icons/uil-check-circle.png" alt="circle">
-                                <p>Variety of options to choose from</p>
+                                <p>Variedade de opções para escolher</p>
                             </li>
                         </ul>
                     </div>
@@ -60,24 +60,18 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="txt">
-                        <h2 class="mb-24">Our Journey So Far</h2>
-                        <p class="mb-24">Lorem ipsum dolor sit amet consectetur. Ac nisl lacus fermentum
-                            sollicitudin
-                            nascetur ipsum commodo. Sed in ultricies placerat sed commodo ut rhoncus ac. Vel ut
-                            neque
-                            amet tellus tristique sit. Condimentum at diam pulvinar praesent est amet egestas morbi.
-                            Vivamus ut commodo venenatis hac porttitor sed risus a. Faucibus risus blandit convallis
-                            risus sit fermentum quisque. Aliquam quis ut sagittis nullam eget diam.<br><br>
-                            Massa urna quis aliquet vel condimentum. Adipiscing adipiscing volutpat sem non.
-                            Tincidunt
-                            enim vitae consectetur neque amet.</p>
+                        <h2 class="mb-24">Nossa jornada <br> até agora</h2>
+                        <p class="mb-24">Ao longo dos anos, a Chana Car construiu uma história marcada por confiança, crescimento e dedicação ao cliente. Começamos com uma pequena frota e, hoje, somos referência no aluguel de veículos, atendendo centenas de clientes com qualidade e compromisso.</p>
+                            <p class="mb-24">Cada quilômetro percorrido representa nosso esforço em oferecer soluções práticas, seguras e acessíveis para quem valoriza uma boa experiência na estrada.</p>
                     </div>
                     <a href="rental.html" class="cus-btn">
                         <span class="btn-text">
-                            View Our Cars
+                            Ver nossos carros
+                            <i class="bi bi-car-front-fill"></i>
                         </span>
                         <span>
-                            View Our Cars
+                            Ver nossos carros
+                            <i class="bi bi-car-front-fill"></i>
                         </span>
                     </a>
                 </div>
@@ -90,40 +84,44 @@
     <section class="catagory py-80">
         <div class="container-fluid">
             <div class="row row-gap-3">
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-3 col-md-4 me-4 ms-4 pt-4 shadow">
                     <div class="block">
                         <img src="assets/media/user/uil-book-open.png" alt="book">
-                        <h5>Mission</h5>
+                        <h5>MISSÃO</h5>
                     </div>
                     <div class="txt">
-                        <p>Lorem ipsum dolor sit amet consectetur.<br>
-                            Ac nisl lacus fermentum sollicitudin nascetur ipsum commodo. Sed in ultricies placerat sed
-                            commodo ut rhoncus ac.<br><br>
-                            Condimentum at diam pulvinar praesent est amet egestas morbi. </p>
+                        <p>Oferecemos uma mobilidade de qualidade e de eficiência e um atendimento diferenciado e inovador</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-4 me-4 pt-4 shadow">
                     <div class="block">
                         <img src="assets/media/user/uil-eye.png" alt="eye">
-                        <h5>Vision</h5>
+                        <h5>VISÃO</h5>
                     </div>
                     <div class="txt">
-                        <p>Lorem ipsum dolor sit amet consectetur.<br>
-                            Ac nisl lacus fermentum sollicitudin nascetur ipsum commodo. Sed in ultricies placerat sed
-                            commodo ut rhoncus ac.<br><br>
-                            Condimentum at diam pulvinar praesent est amet egestas morbi. </p>
+                        <p>Ser reconhecida a nível Nacional pela qualidade de oferecer a melhor mobilidade e as melhores propostas, que tragam benefício recíprocos.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-4 pt-4 shadow">
                     <div class="block">
                         <img src="assets/media/user/uil-heart.png" alt="heart">
-                        <h5>Value</h5>
+                        <h5>VALORES</h5>
                     </div>
                     <div class="txt">
-                        <p>Lorem ipsum dolor sit amet consectetur.<br>
-                            Ac nisl lacus fermentum sollicitudin nascetur ipsum commodo. Sed in ultricies placerat sed
-                            commodo ut rhoncus ac.<br><br>
-                            Condimentum at diam pulvinar praesent est amet egestas morbi. </p>
+                        <ul class="offers">
+                            <li class="d-flex">
+                                <img src="assets/media/icons/uil-check-circle.png" alt="circle">
+                                <p>Transparência; </p>
+                            </li>
+                            <li class="d-flex">
+                                <img src="assets/media/icons/uil-check-circle.png" alt="circle">
+                                <p>Rigor; </p>
+                            </li>
+                            <li class="d-flex">
+                                <img src="assets/media/icons/uil-check-circle.png" alt="circle">
+                                <p>Respeito e Resiliência.</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -186,9 +184,8 @@
             <div class="heading">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
-                        <h2 class="text-center black-2 mb-12">Why You Should <span>Choose Us?</span></h2>
-                        <p class="text-center mb-48">Massa urna quis aliquet vel condimentum. Adipiscing adipiscing
-                            volutpat sem non.</p>
+                        <h2 class="text-center black-2 mb-12">Por que você deve <br>  <span>nos escolher?</span></h2>
+                        <p class="text-center mb-48">Porque oferecemos mais do que carros — entregamos confiança, praticidade e um <br> atendimento que coloca você em primeiro lugar.</p>
                     </div>
                 </div>
             </div>
@@ -201,8 +198,8 @@
                               </svg>
                         </div>
                         <div class="block">
-                            <h5 class="mb-8">Safety</h5>
-                            <p>Drive with confidence in our meticulously<br> maintained vehicles.</p>
+                            <h5 class="mb-8"> Segurança</h5>
+                            <p>Dirija com confiança em nossos veículos cuidadosamente mantidos.</p>
                         </div>
                     </div>
                 </div>
@@ -214,8 +211,8 @@
                               </svg>
                         </div>
                         <div class="block">
-                            <h5 class="mb-8">Reliabilty</h5>
-                            <p>Count on us for a seamless rental<br>experience every time.</p>
+                            <h5 class="mb-8">Confiabilidade</h5>
+                            <p>Conte conosco para uma experiência de aluguel tranquila em todas as ocasiões.</p>
                         </div>
                     </div>
                 </div>
@@ -227,8 +224,8 @@
                               </svg>
                         </div>
                         <div class="block">
-                            <h5 class="mb-8"> More Options</h5>
-                            <p>With our vast fleet of cars you will get<br> what you want.</p>
+                            <h5 class="mb-8"> Mais Opções</h5>
+                            <p>Com nossa ampla frota de carros, você sempre encontra o que precisa.</p>
                         </div>
                     </div>
                 </div>
@@ -240,8 +237,8 @@
                               </svg>
                         </div>
                         <div class="block">
-                            <h5 class="mb-8">Insurance</h5>
-                            <p>Protecting you on the road, ensuring peace of mind throughout your journey</p>
+                            <h5 class="mb-8">Seguro Incluso</h5>
+                            <p>Proteção durante toda a sua viagem, garantindo tranquilidade e segurança.</p>
                         </div>
                     </div>
                 </div>
