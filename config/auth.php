@@ -41,10 +41,11 @@ return [
         'provider' => 'users',
     ],
 
-     'cliente' => [ // Para Breeze (clientes)
-        'driver' => 'session',
-        'provider' => 'clientes',
-    ],
+    // Para Breeze (clientes)
+    //  'cliente' => [
+    //     'driver' => 'session',
+    //     'provider' => 'clientes',
+    // ],
 ],
 
     /*
@@ -70,10 +71,10 @@ return [
             'model' => env('AUTH_MODEL', App\Models\User::class),
         ],
 
-        'customer' => [
-            'driver' => 'eloquent',
-            'model' => env('AUTH_MODEL', App\Models\Customer::class),
-        ],
+        // 'customer' => [
+        //     'driver' => 'eloquent',
+        //     'model' => env('AUTH_MODEL', App\Models\Customer::class),
+        // ],
 
         // 'users' => [
         //     'driver' => 'database',

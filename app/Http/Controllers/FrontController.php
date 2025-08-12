@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Vehicle;
 use App\Services\FrontService;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 
 class FrontController extends Controller
@@ -19,7 +20,19 @@ class FrontController extends Controller
 
         $data = $this->frontService->getFrontPageData();
         /*dd($data); */
-        return view('mycount', $data);
+        return view('dashboard', $data);
+    }
+
+    public function about(){
+        return view('about');
+    }
+
+    public function cars(){
+        return view('carros');
+    }
+
+    public function contact(){
+        return view('contacto');
     }
 
     public function details(Vehicle $vehicle){
@@ -29,6 +42,6 @@ class FrontController extends Controller
     public function reservaDetalhes(Request $request){
         // dd($request->all());
          return view('reserva-detalhes');
-        
+
     }
 }

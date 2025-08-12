@@ -27,7 +27,7 @@
             </h4>
             <div class="btn-block row-gap-3 mb-48">
                 <div class="cus-btn">
-                    <a href="{{asset('/carros')}}" class="btn-text">
+                    <a href="{{route('front.cars')}}" class="btn-text">
                         <span class="btn-text">
                             Todos Carros
                             <i class="bi bi-car-front-fill"></i>
@@ -38,7 +38,7 @@
                         </span>
                     </a>
                 </div>
-                <a href="{{asset('/contacto')}}" class="cus-btn-2">
+                <a href="{{route('front.cars')}}" class="cus-btn-2">
                     <span class="btn-text">
                         Contacta-nos
                         <i class="bi bi-telephone"></i>
@@ -66,7 +66,7 @@
             </h4>
             <div class="btn-block row-gap-3 mb-48">
                 <div class="cus-btn">
-                    <a href="{{asset('/carros')}}" class="btn-text">
+                    <a href="{{route('front.cars')}}" class="btn-text">
                         <span class="btn-text">
                             Todos Carros
                             <i class="bi bi-car-front-fill"></i>
@@ -105,7 +105,7 @@
             </h4>
             <div class="btn-block row-gap-3 mb-48">
                 <div class="cus-btn">
-                    <a href="{{asset('/carros')}}" class="btn-text">
+                    <a href="{{route('front.cars')}}" class="btn-text">
                         <span class="btn-text">
                             Todos Carros
                             <i class="bi bi-car-front-fill"></i>
@@ -269,7 +269,7 @@
                         <p>
                         Descubra os modelos preferidos pelos nossos clientes nos últimos dias. Destaques em conforto, economia e desempenho. </p>
                 </div>
-                <a href="{{asset('/carros')}}" class="cus-btn">
+                <a href="{{route('front.cars')}}" class="cus-btn">
                     <span class="btn-text">
                         Todos Carros
                         <i class="bi bi-car-front-fill"></i>
@@ -544,7 +544,7 @@
                     <h2 class="mb-12">Escolha o seu Carro</h2>
                     <p>Encontre o veículo ideal para cada momento. De compactos econômicos <br> a SUVs confortáveis — temos a opção perfeita para sua necessidade.</p>
                 </div>
-                <a href="rental.html" class="cus-btn">
+                <a href="{{route('front.cars')}}" class="cus-btn">
                     <span class="btn-text">
                         Todos Carros
                         <i class="bi bi-car-front-fill"></i>
@@ -604,7 +604,7 @@
                     </div>
                 </div>
                 @endforeach
-               
+
             </div>
         </div>
     </section>
