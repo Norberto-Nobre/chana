@@ -1,31 +1,21 @@
 <?php
 
+use App\Http\Controllers\FrontController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ReservaController;
+use App\Livewire\CarroDetalhes;
 
 
 // ROTAS DO SITE
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/', [FrontController::class, 'index'])->name('front.index');
+Route::get('/car-details/{vehicle:id}', [FrontController::class, 'details'])->name('front.details');
 
-Route::view('/', 'pages.index');
+Route::post('/reserva-detalhes', [FrontController::class, 'reservaDetalhes'])->name('reserva.detalhes');
 
-Route::view('mycount', 'dashboard')
-    ->middleware(['auth', 'verified'])
-    ->name('dashboard');
+// routes/web.php
+// Route::get('/reserva-detalhes', [ReservaController::class, 'detalhes'])->name('reserva.detalhes');
+Route::post('/reservar', [ReservaController::class, 'store'])->name('reserva.store');
 
-Route::view('about', 'about')
-    ->name('about');
-Route::view('carros', 'carros')
-    ->name('carros');
-Route::view('contacto', 'contacto')
-    ->name('contacto');
-Route::view('carro-detalhes', 'carro-detalhes')
-    ->name('carro-detalhes');
-Route::view('reserva-detalhes', 'reserva-detalhes')
-    ->name('reserva-detalhes');
-
-Route::view('profile', 'profile')
-    ->middleware(['auth'])
-    ->name('profile');
 
 require __DIR__.'/auth.php';

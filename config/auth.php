@@ -35,12 +35,17 @@ return [
     |
     */
 
-    'guards' => [
-        'web' => [
-            'driver' => 'session',
-            'provider' => 'users',
-        ],
+ 'guards' => [
+    'web' => [ // Para Filament (users)
+        'driver' => 'session',
+        'provider' => 'users',
     ],
+
+     'cliente' => [ // Para Breeze (clientes)
+        'driver' => 'session',
+        'provider' => 'clientes',
+    ],
+],
 
     /*
     |--------------------------------------------------------------------------
@@ -63,6 +68,11 @@ return [
         'users' => [
             'driver' => 'eloquent',
             'model' => env('AUTH_MODEL', App\Models\User::class),
+        ],
+
+        'customer' => [
+            'driver' => 'eloquent',
+            'model' => env('AUTH_MODEL', App\Models\Customer::class),
         ],
 
         // 'users' => [
