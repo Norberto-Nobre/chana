@@ -96,7 +96,8 @@ class VehicleModelResource extends Resource
                 Tables\Columns\TextColumn::make('price_per_day')
                     ->numeric()
                     ->sortable(),
-                Tables\Columns\ImageColumn::make('image'),
+                Tables\Columns\ImageColumn::make('image')
+                    ->disk('public'),
                 Tables\Columns\IconColumn::make('is_active')
                     ->boolean(),
                 Tables\Columns\TextColumn::make('created_at')
