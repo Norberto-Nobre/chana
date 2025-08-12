@@ -28,6 +28,9 @@
                             <li class="dropdown">
                                 <a href="{{route('front.cars')}}">Carros</a>
                             </li>
+                             <li class="dropdown">
+                                <a href="javascript:void(0);">FAQ</a>
+                            </li>
                             <!-- <li class="dropdown">
                                 <a href="javascript:void(0);">Rental</a>
                                 <ul>
@@ -56,24 +59,25 @@
                         </ul>
                     </div>
                 </div>
+
                 <div class="main-menu__right">
                     <div class="search-heart-icon d-md-flex d-none align-items-center gap-24">
                        @auth
-    <div class="hidden sm:flex sm:items-center sm:ms-6">
-        <x-dropdown align="right" width="48">
-            <x-slot name="trigger">
-                <button class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 dark:text-gray-400 bg-white dark:bg-gray-800 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none transition ease-in-out duration-150">
-                    <div x-data="{{ json_encode(['name' => auth()->user()->name]) }}"
-                         x-text="name"
-                         x-on:profile-updated.window="name = $event.detail.name">
-                    </div>
-                    <div class="ms-1">
-                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                        </svg>
-                    </div>
-                </button>
-            </x-slot>
+            <div class="hidden sm:flex sm:items-center sm:ms-6">
+                <x-dropdown align="right" width="48">
+                    <x-slot name="trigger">
+                        <button class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 dark:text-gray-400 bg-white dark:bg-gray-800 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none transition ease-in-out duration-150">
+                        <div x-data="{{ json_encode(['name' => auth()->user()->name]) }}"
+                            x-text="name"
+                            x-on:profile-updated.window="name = $event.detail.name">
+                        </div>
+                        <div class="ms-1">
+                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </button>
+                </x-slot>
 
             <x-slot name="content">
                 <x-dropdown-link :href="route('profile')">
@@ -91,15 +95,15 @@
             </x-slot>
         </x-dropdown>
     </div>
-@else
-    <a href="{{ route('login') }}">Log in</a>
-    @if (Route::has('register'))
-        <a href="{{ route('register') }}">Register</a>
-    @endif
-@endauth
+            @else
+                <a class="fs-6 bg-primary text-white px-3 py-2 rounded fw-bold" href="{{ route('login') }}">Log in</a>
+                @if (Route::has('register'))
+                    <a class="fs-6 border px-3 py-2 rounded fw-bold" href="{{ route('register') }}">Register</a>
+                @endif
+            @endauth
                     </div>
                         <a href="#" class="d-xl-none d-flex main-menu__toggler mobile-nav__toggler">
-                            <i class="fa-light fa-bars"></i>
+                            <i class="fa-light fa-bars">rrrr</i>
                         </a>
                 </div>
             </nav>
