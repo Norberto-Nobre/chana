@@ -97,7 +97,7 @@ class VehicleModelResource extends Resource
                     ->numeric()
                     ->sortable(),
                 Tables\Columns\ImageColumn::make('image')
-                    ->disk('public'),
+                    ->disk('public/storage'),
                 Tables\Columns\IconColumn::make('is_active')
                     ->boolean(),
                 Tables\Columns\TextColumn::make('created_at')
