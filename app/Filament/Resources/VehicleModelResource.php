@@ -64,7 +64,8 @@ class VehicleModelResource extends Resource
                     ->required()
                     ->numeric(),
                 Forms\Components\FileUpload::make('image')
-                    ->image(),
+                    ->image()
+                    ->disk('public'),
                 Forms\Components\Toggle::make('is_active')
                     ->required(),
             ]);
@@ -97,7 +98,7 @@ class VehicleModelResource extends Resource
                     ->numeric()
                     ->sortable(),
                 Tables\Columns\ImageColumn::make('image')
-                    ->disk('public/storage'),
+                    ->disk('public'),
                 Tables\Columns\IconColumn::make('is_active')
                     ->boolean(),
                 Tables\Columns\TextColumn::make('created_at')
