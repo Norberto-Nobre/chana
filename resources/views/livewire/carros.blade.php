@@ -16,18 +16,18 @@
 
     <!--title start  -->
     <section class="ride my-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="heads mb-48">
                 <div class="file">
-                    <h2 class="mb-12">Escolha um Carro</h2>
+                    <h4 class="mb-12">Escolha um Carro</h4>
                     <p class="dark-gray">Navegue por nossa frota e encontre o veículo ideal para sua viagem. <br> Temos opções para todos os estilos, ocasiões e orçamentos.</p>
                 </div>
                 <div class="Search-field">
-                    <input type="text" class="search-bar" placeholder="Search Now">
+                    <input type="text" class="search-bar" placeholder="O que está procurando?">
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row row-gap-4">
                 <div class="col-xl-3">
                     <div class="sidebar">
@@ -124,8 +124,8 @@
                             </div>
                        </form> --}}
                         <div class="bg-quant sidebar-block-2 mt-24">
-                            <h5 class="mb-12 text-center">Filtrar por</h5>
-                            <div class="sidebar-widget">
+                            <h6 class="mb-12 text-center">Filtrar por</h5>
+                            {{-- <div class="sidebar-widget">
                                 <div class="widget-title-row mb-24">
                                     <div class="checkbox">
                                         <h6>Preço</h6>
@@ -158,10 +158,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="checkbox">
+                            </div> --}}
+                            {{-- <div class="checkbox">
                                 <div class="widget-title-row mb-16">
-                                    <h6>Modelo</h6>
+                                    <h6 class="fs-6">Modelo</h6>
                                 </div>
                                 <div class="widget-content-block">
                                     <ul class="filter-list unstyled">
@@ -183,10 +183,10 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="checkbox">
                                 <div class="widget-title-row mb-16">
-                                    <h6>Capacidade de Passageiros</h6>
+                                    <h6 class="fs-6">Capacidade de Passageiros</h6>
                                 </div>
                                 <div class="widget-content-block">
                                     <ul class="filter-list unstyled">
@@ -194,7 +194,7 @@
                                             <label class="material-checkbox">
                                                 <input type="checkbox">
                                                 <span class="checkmark"></span>
-                                                2 PERSON
+                                                2 PESSOAS
                                             </label>
                                             <p class="light-gray">(02)</p>
                                         </li>
@@ -202,7 +202,7 @@
                                             <label class="material-checkbox">
                                                 <input type="checkbox">
                                                 <span class="checkmark"></span>
-                                                9 PERSON
+                                                9 PESSOAS
                                             </label>
                                             <p class="light-gray">(09)</p>
                                         </li>
@@ -211,23 +211,39 @@
                             </div>
                             <div class="checkbox">
                                 <div class="widget-title-row mb-16">
-                                    <h6>Tipo de Combustível</h6>
+                                    <h6 class="fs-6">Tipo de Combustível</h6>
                                 </div>
                                 <div class="widget-content-block">
                                     <ul class="filter-list unstyled">
-                                        <li class="d-flex mb-12 justify-content-between">
+                                        {{-- <li class="d-flex mb-12 justify-content-between">
                                             <label class="material-checkbox">
                                                 <input type="checkbox">
                                                 <span class="checkmark"></span>
                                                 Turbo
                                             </label>
                                             <p class="light-gray">(06)</p>
+                                        </li> --}}
+                                        <li class="d-flex justify-content-between">
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                                Gasolina
+                                            </label>
+                                            <p class="light-gray">(05)</p>
                                         </li>
                                         <li class="d-flex justify-content-between">
                                             <label class="material-checkbox">
                                                 <input type="checkbox">
                                                 <span class="checkmark"></span>
-                                                Aspirated
+                                                Diesel
+                                            </label>
+                                            <p class="light-gray">(05)</p>
+                                        </li>
+                                        <li class="d-flex justify-content-between">
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                                Eléctrico
                                             </label>
                                             <p class="light-gray">(05)</p>
                                         </li>
@@ -236,7 +252,7 @@
                             </div>
                             <div class="checkbox">
                                 <div class="widget-title-row mb-16">
-                                    <h6>Transmissão</h6>
+                                    <h6 class="fs-6">Transmissão</h6>
                                 </div>
                                 <div class="widget-content-block">
                                     <ul class="filter-list unstyled">
@@ -297,11 +313,11 @@
                                         </div>
                                         <div class="cus-btn">
                                             <span class="btn-text">
-                                                Alugar Agora
+                                                Alugar
                                                <i class="bi bi-calendar2-check"></i>
                                             </span>
                                             <span>
-                                                Alugar Agora
+                                                Alugar
                                                <i class="bi bi-calendar2-check"></i>
                                             </span>
                                         </div>
@@ -342,11 +358,11 @@
                                         </div>
                                         <div class="cus-btn">
                                             <span class="btn-text">
-                                                Alugar Agora
+                                                Alugar
                                                <i class="bi bi-calendar2-check"></i>
                                             </span>
                                             <span>
-                                                Alugar Agora
+                                                Alugar
                                                <i class="bi bi-calendar2-check"></i>
                                             </span>
                                         </div>
@@ -387,11 +403,11 @@
                                         </div>
                                         <div class="cus-btn">
                                             <span class="btn-text">
-                                                Alugar Agora
+                                                Alugar
                                                <i class="bi bi-calendar2-check"></i>
                                             </span>
                                             <span>
-                                                Alugar Agora
+                                                Alugar
                                                <i class="bi bi-calendar2-check"></i>
                                             </span>
                                         </div>
@@ -432,11 +448,11 @@
                                         </div>
                                         <div class="cus-btn">
                                             <span class="btn-text">
-                                                Alugar Agora
+                                                Alugar
                                                <i class="bi bi-calendar2-check"></i>
                                             </span>
                                             <span>
-                                                Alugar Agora
+                                                Alugar
                                                <i class="bi bi-calendar2-check"></i>
                                             </span>
                                         </div>
@@ -477,11 +493,11 @@
                                         </div>
                                         <div class="cus-btn">
                                             <span class="btn-text">
-                                                Alugar Agora
+                                                Alugar
                                                <i class="bi bi-calendar2-check"></i>
                                             </span>
                                             <span>
-                                                Alugar Agora
+                                                Alugar
                                                <i class="bi bi-calendar2-check"></i>
                                             </span>
                                         </div>
@@ -522,11 +538,11 @@
                                         </div>
                                         <div class="cus-btn">
                                             <span class="btn-text">
-                                                Alugar Agora
+                                                Alugar
                                                <i class="bi bi-calendar2-check"></i>
                                             </span>
                                             <span>
-                                                Alugar Agora
+                                                Alugar
                                                <i class="bi bi-calendar2-check"></i>
                                             </span>
                                         </div>

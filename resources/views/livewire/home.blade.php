@@ -10,31 +10,30 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active position-relative">
-      <img src="assets/media/cars/hero-group.png" alt="map-image" class="w-100">
+      <img src="assets/media/cars/slide3.jpeg" alt="map-image" class="w-100">
        <!-- Camada azul com transparência -->
     <div class="overlay-blue"></div>
-      <div class="carousel-caption d-none d-md-block">
-       <div class="container-fluid">
+      <div class="carousel-caption d-none d-md-block edit-1">
+       <div class="container">
             <h4 class="mb-16">
-                <span class="text-white">Chana RENT-A-CAR </span><br>
-                <p class="text-white">Mobilidade que inspira confiança.</p>
-
+                <span class="h2 text-white">Chana RENT-A-CAR </span><br>
+                <p class="fs-5 text-white mt-3 mb-2">Carros modernos, revisados e confortáveis, prontos para levar você ao seu destino com segurança e estilo. <strong>Reserve agora e comece sua aventura hoje!</strong></p>
             </h4>
             <div class="btn-block row-gap-3 mb-48">
                 <div class="cus-btn">
                     <a href="{{route('front.cars')}}" class="btn-text">
                         <span class="btn-text">
-                            Todos Carros
-                            <i class="bi bi-car-front-fill"></i>
+                            Alugar Agora
+                            <i class="bi bi-arrow-up-right"></i>
                         </span>
                         <span class="btn-text">
-                            Todos Carros
-                            <i class="bi bi-car-front-fill"></i>
+                            Alugar Agora
+                            <i class="bi bi-arrow-up-right"></i>
                         </span>
                     </a>
                 </div>
                 <a href="{{route('front.contact')}}" class="cus-btn-2">
-                    <span class="btn-text">
+                    <span class="btn-text text-white">
                         Contacta-nos
                         <i class="bi bi-telephone"></i>
                     </span>
@@ -48,32 +47,31 @@
       </div>
     </div>
     <div class="carousel-item position-relative">
-      <img src="assets/media/cars/hero-group.png" alt="map-image" class="w-100">
+      <img src="assets/media/cars/slide1.jpeg" alt="map-image" class="w-100">
        <!-- Camada azul com transparência -->
     <div class="overlay-blue"></div>
-      <div class="carousel-caption d-none d-md-block">
-       <div class="carousel-caption d-none d-md-block">
-        <div class="container-fluid">
+      <div class="carousel-caption d-none d-md-block edit-2">
+        <div class="container">
             <h4 class="mb-16">
-                <span class="text-white">Chana RENT-A-CAR </span><br>
-                <p class="text-white">Mobilidade que inspira confiança.</p>
+                <span class="h2 text-white">Aluguel com preço justo </span><br>
+                <p class="fs-5 text-white">Planos flexíveis e preços competitivos para aproveitar cada viagem sem pesar no orçamento.<strong>Escolha seu carro e garanta a melhor oferta!</strong></p>
 
             </h4>
             <div class="btn-block row-gap-3 mb-48">
                 <div class="cus-btn">
                     <a href="{{route('front.cars')}}" class="btn-text">
                         <span class="btn-text">
-                            Todos Carros
-                            <i class="bi bi-car-front-fill"></i>
+                            Alugar Agora
+                            <i class="bi bi-arrow-up-right"></i>
                         </span>
                         <span class="btn-text">
-                            Todos Carros
-                            <i class="bi bi-car-front-fill"></i>
+                            Alugar Agora
+                            <i class="bi bi-arrow-up-right"></i>
                         </span>
                     </a>
                 </div>
                 <a href="{{route('front.contact')}}" class="cus-btn-2">
-                    <span class="btn-text">
+                    <span class="btn-text text-white">
                         Contacta-nos
                         <i class="bi bi-telephone"></i>
                     </span>
@@ -84,35 +82,34 @@
                 </a>
             </div>
         </div>
-    </div>
       </div>
     </div>
     <div class="carousel-item position-relative">
-    <img src="assets/media/cars/hero-group.png" alt="map-image" class="w-100">
+    <img src="assets/media/cars/slide2.jpeg" alt="map-image" class="w-100">
     <!-- Camada azul com transparência -->
     <div class="overlay-blue"></div>
-    <div class="carousel-caption d-none d-md-block">
-        <div class="container-fluid">
+    <div class="carousel-caption d-none d-md-block edit-2">
+        <div class="container">
             <h4 class="mb-16">
-                <span class="text-white">Chana RENT-A-CAR </span><br>
-                <p class="text-white">Mobilidade que inspira confiança.</p>
+                <span class="h2 text-white">Seu destino, nossa missão </span><br>
+                <p class="fs-5 text-white">Da cidade ao interior, da curta à longa distância — estamos com você em cada quilômetro da sua jornada.<strong>Dirija com liberdade e tranquilidade!</strong></p>
 
             </h4>
             <div class="btn-block row-gap-3 mb-48">
                 <div class="cus-btn">
                     <a href="{{route('front.cars')}}" class="btn-text">
                         <span class="btn-text">
-                            Todos Carros
-                            <i class="bi bi-car-front-fill"></i>
+                            Alugar Agora
+                            <i class="bi bi-arrow-up-right"></i>
                         </span>
                         <span class="btn-text">
-                            Todos Carros
-                            <i class="bi bi-car-front-fill"></i>
+                            Alugar Agora
+                            <i class="bi bi-arrow-up-rightl"></i>
                         </span>
                     </a>
                 </div>
                 <a href="{{route('front.contact')}}" class="cus-btn-2">
-                    <span class="btn-text">
+                    <span class="btn-text text-white">
                         Contacta-nos
                         <i class="bi bi-telephone"></i>
                     </span>
@@ -140,7 +137,7 @@
 
     <!-- Booking-form area start -->
     <div class="booking my-80">
-        <div class="container-fluid">
+        <div class="container">
             <form action="index.html">
                 <div class="row row-gap-3 mb-24">
                     <div class="col-lg-12">
@@ -230,7 +227,7 @@
 
     <!-- Feature area start -->
     <section class="features my-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row row-gap-3 justify-content-center">
                 <div class="col-lg-4 col-md-6 justify-content-center">
                     <div class="info">
@@ -257,10 +254,10 @@
 
     <!-- Top vehicle area start -->
     <section class="vehicles pb-48">
-        <div class="container-fluid">
+        <div class="container">
             <div class="heading mb-48 mt-48">
                 <div class="description">
-                    <h2 class="mb-12">Veículos mais bem <br> escolhidos deste Mês</h2>
+                    <h4 class="mb-12">Veículos mais bem <br> escolhidos deste Mês</h4>
                         <p>
                         Descubra os modelos preferidos pelos nossos clientes nos últimos dias. Destaques em conforto, economia e desempenho. </p>
                 </div>
@@ -309,11 +306,11 @@
                                 </div>
                                 <div class="cus-btn">
                                     <span class="btn-text">
-                                        Alugar Agora
+                                        Alugar
                                         <i class="bi bi-calendar2-check"></i>
                                     </span>
                                     <span>
-                                        Alugar Agora
+                                        Alugar
                                        <i class="bi bi-calendar2-check"></i>
                                     </span>
                                 </div>
@@ -354,11 +351,11 @@
                                 </div>
                                 <div class="cus-btn">
                                     <span class="btn-text">
-                                        Alugar Agora
+                                        Alugar
                                        <i class="bi bi-calendar2-check"></i>
                                     </span>
                                     <span>
-                                        Alugar Agora
+                                        Alugar
                                        <i class="bi bi-calendar2-check"></i>
                                     </span>
                                 </div>
@@ -399,11 +396,11 @@
                                 </div>
                                 <div class="cus-btn">
                                     <span class="btn-text">
-                                        Alugar Agora
+                                        Alugar
                                        <i class="bi bi-calendar2-check"></i>
                                     </span>
                                     <span>
-                                        Alugar Agora
+                                        Alugar
                                        <i class="bi bi-calendar2-check"></i>
                                     </span>
                                 </div>
@@ -444,11 +441,11 @@
                                 </div>
                                 <div class="cus-btn">
                                     <span class="btn-text">
-                                        Alugar Agora
+                                        Alugar
                                        <i class="bi bi-calendar2-check"></i>
                                     </span>
                                     <span>
-                                        Alugar Agora
+                                        Alugar
                                        <i class="bi bi-calendar2-check"></i>
                                     </span>
                                 </div>
@@ -463,7 +460,7 @@
 
     <!-- About-area start -->
     <section class="about my-80">
-        <div class="container-fluid ps-0">
+        <div class="container ps-0">
             <div class="design mt-48">
                 <div class="row">
                     <div class="col-lg-6">
@@ -471,7 +468,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="txt-block">
-                            <h2 class="mb-12">Seu Portal para Aventuras Perfeitas<br class="d-xl-block  d-none"></h2>
+                            <h4 class="mb-12">Seu Portal para Aventuras Perfeitas<br class="d-xl-block  d-none"></h4>
                             <p class="mb-32">Explore novos destinos com segurança, conforto e estilo. Nossa frota está pronta para transformar cada viagem em uma experiência inesquecível.</p>
                             <p class="mb-32">
                                 Seja para uma viagem a trabalho, férias em família ou uma escapada de fim de semana, oferecemos opções que se adaptam a cada tipo de necessidade. Com atendimento de excelência e preços acessíveis, garantimos que sua aventura comece do jeito certo.</p>
@@ -533,10 +530,10 @@
 
     <!--Ride area start -->
     <section class="vehicles my-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="txts mb-48">
                 <div class="descript">
-                    <h2 class="mb-12">Escolha o seu Carro</h2>
+                    <h4 class="mb-12">Escolha o seu Carro</h4>
                     <p>Encontre o veículo ideal para cada momento. De compactos econômicos <br> a SUVs confortáveis — temos a opção perfeita para sua necessidade.</p>
                 </div>
                 <a href="{{route('front.cars')}}" class="cus-btn">
@@ -557,7 +554,7 @@
                     <div class="vehicle-card">
                         <a href="{{route('front.details', $vehicle->id)}}">
                             <img src="{{asset('storage/' . $vehicle->model->image)}}" class="w-100" alt="car">
-                            <h3 class="h3 title">{{$vehicle->model->name}}</h3>
+                            <h2 class="h3 title">{{$vehicle->model->name}}</h2>
                             <p class="mb-12">{{$vehicle->status}}</p>
                             <div class="icons mb-12">
                                 <div class="d-flex align-items-center gap-4">
@@ -581,7 +578,7 @@
                             </div>
                             <div class="bottom-row mb">
                                 <div>
-                                    <p>starts from</p>
+                                    {{-- <p>starts from</p> --}}
                                     <h6>kz {{number_format($vehicle->model->price_per_day,'0',',','.')}} /Dia</h6>
                                 </div>
                                 <div class="cus-btn">
@@ -607,10 +604,10 @@
 
     <!--Vicheles-area start -->
     <section class="catagory my-80">
-        <div class="container-fluid ">
+        <div class="container ">
             <div class="ranges mt-48">
                 <div class="txt">
-                    <h2 class="mb-12">Ampla gama de veículos</h2>
+                    <h4 class="mb-12">Ampla gama de veículos</h4>
                     <p>Oferecemos uma variedade completa de carros para todos os estilos e necessidades. <br> Desde modelos compactos ideais para o dia a dia até SUVs robustos para aventuras mais longas.</p>
                 </div>
                 <div class="row row-gap-4">
@@ -754,13 +751,13 @@
     <!-- brands-end -->
 
     <!--testimonials-area-start -->
-    <section class="testimonials my-80">
-        <div class="container-fluid ">
+    <section class="testimonials pt-0 my-80">
+        <div class="container ">
             <div class="reviews mt-48">
                 <div class="txt">
                     <div class="d-flex flex-md-row flex-column gap-24 align-items-md-center justify-content-between">
                         <div>
-                            <h2 class="mb-12">Ouça nossos clientes</h2>
+                            <h4 class="mb-12">Ouça nossos clientes</h4>
                             <p class="">Depoimentos reais que mostram por que somos a escolha certa para sua
                                 <br class="d-sm-block d-none">próxima viagem. fames bibendum ornare viverra.</p>
                         </div>
@@ -897,7 +894,7 @@
 
     <!-- Blogs-area-start -->
     {{-- <section class="blogs my-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="blog-card">
                 <div class="txt">
                     <h2 class="mb-12">Insights from Our Blogs</h2>
@@ -1070,7 +1067,7 @@
 
     <!--Booking-form-start -->
     {{-- <section class="booking-form py-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="images">

@@ -19,7 +19,7 @@
        <!-- Camada azul com transparência -->
     <div class="overlay-blue"></div>
       <div class="carousel-caption d-none d-md-block">
-       <div class="container-fluid">
+       <div class="container">
             <h4 class="mb-16">
                 <span class="text-white">Chana RENT-A-CAR </span><br>
                 <p class="text-white">Mobilidade que inspira confiança.</p>
@@ -58,7 +58,7 @@
     <div class="overlay-blue"></div>
       <div class="carousel-caption d-none d-md-block">
        <div class="carousel-caption d-none d-md-block">
-        <div class="container-fluid">
+        <div class="container">
             <h4 class="mb-16">
                 <span class="text-white">Chana RENT-A-CAR </span><br>
                 <p class="text-white">Mobilidade que inspira confiança.</p>
@@ -97,7 +97,7 @@
     <!-- Camada azul com transparência -->
     <div class="overlay-blue"></div>
     <div class="carousel-caption d-none d-md-block">
-        <div class="container-fluid">
+        <div class="container">
             <h4 class="mb-16">
                 <span class="text-white">Chana RENT-A-CAR </span><br>
                 <p class="text-white">Mobilidade que inspira confiança.</p>
@@ -145,7 +145,7 @@
 
     <!-- Booking-form area start -->
     <div class="booking my-80">
-        <div class="container-fluid">
+        <div class="container">
             <form action="index.html">
                 <div class="row row-gap-3 mb-24">
                     <div class="col-lg-12">
@@ -235,7 +235,7 @@
 
     <!-- Feature area start -->
     <section class="features my-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row row-gap-3 justify-content-center">
                 <div class="col-lg-4 col-md-6 justify-content-center">
                     <div class="info">
@@ -262,7 +262,7 @@
 
     <!-- Top vehicle area start -->
     <section class="vehicles pb-48">
-        <div class="container-fluid">
+        <div class="container">
             <div class="heading mb-48 mt-48">
                 <div class="description">
                     <h2 class="mb-12">Veículos mais bem <br> escolhidos deste Mês</h2>
@@ -468,7 +468,7 @@
 
     <!-- About-area start -->
     <section class="about my-80">
-        <div class="container-fluid ps-0">
+        <div class="container ps-0">
             <div class="design mt-48">
                 <div class="row">
                     <div class="col-lg-6">
@@ -538,7 +538,7 @@
 
     <!--Ride area start -->
     <section class="vehicles my-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="txts mb-48">
                 <div class="descript">
                     <h2 class="mb-12">Escolha o seu Carro</h2>
@@ -612,7 +612,7 @@
 
     <!--Vicheles-area start -->
     <section class="catagory my-80">
-        <div class="container-fluid ">
+        <div class="container ">
             <div class="ranges mt-48">
                 <div class="txt">
                     <h2 class="mb-12">Ampla gama de veículos</h2>
@@ -711,7 +711,7 @@
 
     <!-- brands-start -->
     <div class="brand-section my-40 py-48">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="brand-slider">
@@ -760,7 +760,7 @@
 
     <!--testimonials-area-start -->
     <section class="testimonials my-80">
-        <div class="container-fluid ">
+        <div class="container ">
             <div class="reviews mt-48">
                 <div class="txt">
                     <div class="d-flex flex-md-row flex-column gap-24 align-items-md-center justify-content-between">
@@ -902,7 +902,7 @@
 
     <!-- Blogs-area-start -->
     {{-- <section class="blogs my-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="blog-card">
                 <div class="txt">
                     <h2 class="mb-12">Insights from Our Blogs</h2>
@@ -1075,7 +1075,7 @@
 
     <!--Booking-form-start -->
     {{-- <section class="booking-form py-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="images">

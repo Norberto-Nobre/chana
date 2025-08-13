@@ -16,11 +16,11 @@
 
     <!--title start  -->
     <section class="about my-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="txt">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
-                        <h2 class=" text-center black-2 mb-48">Confiança - Segurança <br><span> consigo, sempre</span></h2>
+                        <h4 class=" text-center black-2 mb-48">Confiança - Segurança <br><span> consigo, sempre</span></h4>
                         <h6 class="mb-24">O que oferecemos</h6>
                         <ul class="offers">
                             <li>
@@ -53,14 +53,14 @@
 
     <!-- vichles-section -->
     <section class="vehicles-2 py-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 text-center">
                     <img src="assets/media/blogs/car.png" alt="car">
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="txt">
-                        <h2 class="mb-24">Nossa jornada <br> até agora</h2>
+                        <h4 class="mb-24">Nossa jornada <br> até agora</h2>
                         <p class="mb-24">Ao longo dos anos, a Chana Car construiu uma história marcada por confiança, crescimento e dedicação ao cliente. Começamos com uma pequena frota e, hoje, somos referência no aluguel de veículos, atendendo centenas de clientes com qualidade e compromisso.</p>
                             <p class="mb-24">Cada quilômetro percorrido representa nosso esforço em oferecer soluções práticas, seguras e acessíveis para quem valoriza uma boa experiência na estrada.</p>
                     </div>
@@ -82,7 +82,7 @@
 
     <!-- catagory -->
     <section class="catagory py-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row row-gap-3">
                 <div class="col-lg-3 col-md-4 me-4 ms-4 pt-4 shadow">
                     <div class="block">
@@ -131,7 +131,7 @@
 
     <!-- brands-start -->
     <div class="brand-section my-40 py-48">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="brand-slider">
@@ -180,11 +180,11 @@
 
     <!-- choose us -->
     <section class="choose my-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="heading">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
-                        <h2 class="text-center black-2 mb-12">Por que você deve <br>  <span>nos escolher?</span></h2>
+                        <h4 class="text-center black-2 mb-12">Por que você deve <br>  <span>nos escolher?</span></h4>
                         <p class="text-center mb-48">Porque oferecemos mais do que carros — entregamos confiança, praticidade e um <br> atendimento que coloca você em primeiro lugar.</p>
                     </div>
                 </div>

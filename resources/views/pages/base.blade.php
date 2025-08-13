@@ -23,12 +23,12 @@
     {{-- Rodapé opcional --}}
      <!--Footer-start -->
     <footer class="pt-40">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row mb-16 row-gap-4">
                 <div class="col-lg-3">
                     <div class="txt-block">
                         <a href="index.html">
-                            <img src="assets/media/brands/chanalogo.png" alt="/logo" class="header-logo" style="width: auto; height: 40px;">
+                            <img src="{{asset('assets/media/brands/chanalogo.png')}}" alt="/logo" class="header-logo" style="width: auto; height: 40px;">
                             {{-- <img src="assets/media/footer/Frame-173.png" alt="Frame"> --}}
                         </a>
                     </div>
@@ -99,19 +99,19 @@
                         <ul class="unstyled">
                             <li class="mb-16">
                                 <div class="contact">
-                                    <img src="assets/media/footer/uil-outgoing-call.png" alt="call-logo">
+                                    <img src="{{asset('assets/media/footer/uil-outgoing-call.png')}}" alt="call-logo">
                                     <a href="tel:+244923482877">923482877 / 946320021</a>
                                 </div>
                             </li>
                             <li class="mb-16">
                                 <div class="contact">
-                                    <img src="assets/media/footer/uil-map-marker.png" alt="logo">
+                                    <img src="{{asset('assets/media/footer/uil-map-marker.png')}}" alt="logo">
                                     <p>Estrada principal do Lar do Patriota - Luanda</p>
                                 </div>
                             </li>
                             <li class="mb-24">
                                 <div class="contact">
-                                    <img src="assets/media/footer/uil-envelope.png" alt="logo">
+                                    <img src="{{asset('assets/media/footer/uil-envelope.png')}}" alt="logo">
                                     <a href="mailto:rent@orgchana.com">rent@orgchana.com</a>
                                 </div>
                             </li>
@@ -121,22 +121,22 @@
                             <ul class="d-flex unstyled gap-12">
                                 <li>
                                     <a href="">
-                                        <img src="assets/media/footer/Instagram.png" alt="logo">
+                                        <img src="{{asset('assets/media/footer/Instagram.png')}}" alt="logo">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <img src="assets/media/footer/Twitter.png" alt="logo">
+                                        <img src="{{asset('assets/media/footer/Twitter.png')}}" alt="logo">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <img src="assets/media/footer/Dribbble.png" alt="logo">
+                                        <img src="{{asset('assets/media/footer/Dribbble.png')}}" alt="logo">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <img src="assets/media/footer/Linkedin.png " alt="logo">
+                                        <img src="{{asset('assets/media/footer/Linkedin.png')}}" alt="logo">
                                     </a>
                                 </li>
                             </ul>
@@ -156,7 +156,7 @@
     <button class="scrollToTopBtn"><i class="fa fa-arrow-up"></i></button>
 
     <!-- Mobile Menu Start -->
-    <div class="mobile-nav__wrapper">
+    {{-- <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
         <div class="mobile-nav__content">
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
@@ -180,7 +180,7 @@
                 <a href=""><i class="fab fa-instagram"></i></a>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Mobile Menu End -->
 
     <!-- JS -->

@@ -22,11 +22,14 @@ Route::get('/cars', [FrontController::class, 'cars'])->name('front.cars');
 Route::get('/contact', [FrontController::class, 'contact'])->name('front.contact');
 Route::get('/car-details/{vehicle:id}', [FrontController::class, 'details'])->name('front.details');
 
-Route::post('/reserva-detalhes', [FrontController::class, 'reservaDetalhes'])->name('reserva.detalhes');
+// Route::post('/reserva-detalhes', [FrontController::class, 'reservaDetalhes'])->name('reserva.detalhes');
 
 // routes/web.php
-// Route::get('/reserva-detalhes', [ReservaController::class, 'detalhes'])->name('reserva.detalhes');
-Route::post('/reservar', [ReservaController::class, 'store'])->name('reserva.store');
+Route::get('/reserva-detalhes', [ReservaController::class, 'detalhes'])->name('reserva.detalhes');
+Route::post('/confirmar', [ReservaController::class, 'confirmar'])->name('reserva.confirmar');
+
+Route::get('/success', [ReservaController::class, 'success'])->name('reserva.success');
+
 
 Route::get('/profile', function () {
     return view('profile');

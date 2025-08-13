@@ -11,7 +11,7 @@
 
     <!-- HEADER MENU START -->
     <header class="header">
-        <div class="container-fluid">
+        <div class="container">
             <nav class="navigation d-flex align-items-center justify-content-between">
                 <a href="{{route('front.index')}}" class="d-flex align-items-center">
                     <img src="{{asset('assets/media/brands/chanalogo.png')}}" alt="/logo" class="header-logo" style="width: auto; height: 40px;">

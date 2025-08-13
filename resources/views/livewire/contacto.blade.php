@@ -16,7 +16,7 @@
 
     <!--title start  -->
     <section class="files my-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row  row-gap-4 align-items-end">
                 <div class="col-lg-6  col-md-6 col-sm-6   my-40">
                     <form>
@@ -57,7 +57,7 @@
                                 </div> --}}
                             </div>
                             <h6 class="mt-24 mb-24">Fale conosco</h6>
-                            <input class="mb-4" type="text" placeholder="Your Name ">
+                            <input class="mb-4" type="text" placeholder="Nome *">
                             <input class="mb-4" type="email" placeholder="Email *">
                             <input class="mb-4" type="text" placeholder="contacto *">
                             <a href="contact.html" class="cus-btn mt-24">
@@ -81,7 +81,7 @@
 
     <!-- vichles-section -->
     <section class="cards py-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row row-gap-4">
                 <div class="col-xl-3 col-lg-6  col-md-6 col-sm-6">
                     <div class="banner">

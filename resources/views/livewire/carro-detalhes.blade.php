@@ -3,7 +3,7 @@
 
     <!-- About-area start -->
     <section class="details py-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row row-gap-4">
                 <div class="col-lg-8">
                     <div class="slider-arrows smt-sm-0 mt-48 d-sm-flex">
@@ -26,7 +26,7 @@
                     </div>
                     <div class="rental-slider">
                         <div class="rental-slide">
-                            <img src="assets/media/hero/pngwing-7.png" alt="banner">
+                            <img src="{{asset('assets/'. $vehicle->imagen)}}" alt="banner">
                         </div>
                         <div class="rental-slide">
                             <img src="assets/media/hero/pngwing-8.png" alt="banner">
@@ -158,7 +158,7 @@
     </section>
     <!--title start  -->
     <section class="services py-80 ">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row row-gap-4">
                 <div class="col-lg-8">
                     <div class="banner mb-24">

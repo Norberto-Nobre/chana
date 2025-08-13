@@ -9,17 +9,17 @@
     <!-- About-area start -->
     <section class="title-banner-2">
         <div class="txt">
-            <h2 class="white text-center">Booking</h2>
+            <h2 class="white text-center">Detalhes da Reserva</h2>
             <div class="txt-block text-center white">
                 <a href="index.html">Home</a>
                 <i class="fa-solid fa-greater-than"></i>
-                <a href="about.html">Booking</a>
+                <a href="about.html">Detalhes</a>
             </div>
         </div>
     </section>
     <!-- About-area start  end -->
     <section class="booking-2 py-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="stepone">
@@ -31,189 +31,139 @@
                                 </p>
                             </div>
                             <div class="justify-content-between">
-                                <!-- <div class="booking-box-2 bg-ter">
-                                    <p class="mb-24">Lorem ipsum dolor sit amet consectetur. Enim pretium nunc cras nunc
+                                <div class="booking-box-2 bg-ter">
+                                    {{-- <p class="mb-24">Lorem ipsum dolor sit amet consectetur. Enim pretium nunc cras nunc
                                         convallis
                                         ut. Iaculis
                                         pretium ultrices magna sed diam ut quis ultrices. Nulla leo ut purus sed ornare
                                         etiam ipsum
-                                        feugiat placerat aliquam ipsum.</p>
-                                    <div class="d-flex justify-content-between flex-md-row flex-column mb-32">
-                                        <div class="d-flex gap-32">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                                                viewBox="0 0 32 32" fill="none">
-                                                <path
-                                                    d="M29.1145 23.1921C26.3366 19.3989 22.8741 18.5198 21.0467 17.9427V16.6012C22.2778 15.3816 23.0418 13.6904 23.0418 11.8238C23.0418 11.103 23.0418 5.40725 23.0418 4.6895C23.0418 2.10369 20.9381 0 18.3524 0H14.2937C11.708 0 9.60431 2.10369 9.60431 4.68944C9.60431 5.40719 9.60431 11.1029 9.60431 11.8237C9.60431 13.6609 10.3445 15.3282 11.5417 16.5431V17.9806C9.83731 18.5189 6.37106 19.4002 3.59418 23.1921C1.91075 25.4908 1.021 28.2123 1.021 31.0625C1.021 31.5802 1.44075 32 1.9585 32H30.7502C31.2679 32 31.6877 31.5802 31.6877 31.0625C31.6876 28.2123 30.7979 25.4908 29.1145 23.1921ZM19.1716 18.3558L16.4723 22.5807C16.3573 22.5735 16.2751 22.5736 16.1543 22.5823L13.4167 18.3888V17.8862C15.2292 18.7603 17.3505 18.7701 19.1716 17.9133V18.3558ZM12.1254 9.51112C11.3633 7.068 11.4976 7.49794 11.4793 7.44088V7.09919H21.1668V7.43019C21.1467 7.49044 21.2899 7.04962 20.4916 9.51125C15.9779 8.84675 16.7046 8.83687 12.1254 9.51112ZM11.4793 4.68944C11.4793 3.13756 12.7419 1.875 14.2937 1.875H18.3524C19.9042 1.875 21.1668 3.13756 21.1668 4.68944V5.22419H11.4793V4.68944ZM11.4793 11.3149C11.6744 11.3842 11.8706 11.4142 12.0035 11.4142C12.1014 11.4142 11.8856 11.4416 14.9795 10.9861C16.6181 10.7451 17.5102 10.9675 20.4761 11.4041C20.6938 11.4362 20.9624 11.3811 21.1668 11.3044V11.8237C21.1668 14.4979 18.9939 16.6735 16.3231 16.6735C13.6637 16.6735 11.4793 14.5085 11.4793 11.8237V11.3149ZM12.0831 19.776L14.4897 23.4623C13.1373 25.161 14.6427 27.6571 16.7919 27.2188V28.1011C16.7919 28.6188 17.2116 29.0386 17.7294 29.0386C18.2471 29.0386 18.6669 28.6188 18.6669 28.1011V24.9207C18.6669 24.3626 18.4707 23.8497 18.1442 23.4466L20.5122 19.7402C21.8857 20.1739 22.6127 20.3668 23.6877 20.9271V30.125H9.021V20.9271C10.0952 20.3673 10.8404 20.1684 12.0831 19.776ZM7.146 22.1518V30.125H2.93362C3.19 26.9439 4.7415 24.085 7.146 22.1518ZM25.5626 30.125V22.1518C27.9671 24.085 29.5186 26.9439 29.775 30.125H25.5626Z"
-                                                    fill="#2D74BA" />
-                                            </svg>
-                                            <div class="block">
-                                                <p class="color-primary fw-600">
-                                                    <span class="h6 fw-700">Additional Driver -</span>
-                                                    $ 50 per hire
-                                                </p>
-                                                <p class="mb-8">Lorem ipsum dolor sit amet consectetur ut gravida netus
-                                                    consequat.</p>
-                                            </div>
-                                        </div>
-                                        <div class="quantity-wrap mb-8">
-                                            <input class="decrement" type="button" value="-">
-                                            <input type="text" name="quantity" value="1" maxlength="2" size="1"
-                                                class="number">
-                                            <input class="increment" type="button" value="+">
-                                        </div>
-                                    </div>
-                                    <div class="d-flex justify-content-between flex-md-row flex-column mb-32">
-                                        <div class="d-flex gap-32">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                                                viewBox="0 0 32 32" fill="none">
-                                                <g clip-path="url(#clip0_788_623)">
+                                        feugiat placerat aliquam ipsum.</p> --}}
+                                    <div class="d-flex gap-8 mt-24">
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <g clip-path="url(#clip0_788_725)">
                                                     <path
-                                                        d="M25.9675 18.4433V9.40403C25.9675 7.73387 24.7368 6.34569 23.1347 6.09887C23.4087 5.59594 23.5647 5.01977 23.5647 4.40771V3.5454C23.5647 1.59057 21.9741 0 20.0193 0H11.9807C10.0259 0 8.43529 1.59057 8.43529 3.5454V4.40771C8.43529 5.01977 8.5913 5.59594 8.86522 6.09887C7.26318 6.34569 6.03222 7.73387 6.03222 9.40403V18.4433C4.63476 19.0332 3.65137 20.4174 3.65137 22.0273V27.0698C3.65137 29.7883 5.86303 31.9999 8.58178 31.9999H23.4182C26.1369 31.9999 28.3486 29.7883 28.3486 27.0698V22.0273C28.3486 20.4174 27.3652 19.0332 25.9675 18.4433ZM23.4182 30.1064H8.58178C6.90722 30.1064 5.54492 28.7441 5.54492 27.0698V22.0271C5.54492 20.9274 6.43945 20.0327 7.5393 20.0327H8.43554V25.4128C8.43554 25.9357 8.85936 26.3596 9.38207 26.3596H22.6179C23.1408 26.3596 23.5647 25.9357 23.5647 25.4128V20.0327H24.4609C25.5605 20.0327 26.4553 20.9274 26.4553 22.0271V27.0698C26.455 28.7441 25.0927 30.1064 23.4182 30.1064ZM14.248 17.4338C14.7488 17.7719 15.3515 17.9697 15.9997 17.9697C16.6479 17.9697 17.2509 17.7719 17.7517 17.4338L21.6711 20.8149V21.5376C20.8354 20.8833 19.7844 20.4914 18.643 20.4914H13.3567C12.2153 20.4914 11.1645 20.883 10.3286 21.5376V20.8149L14.248 17.4338ZM15.9997 16.0761C15.3139 16.0761 14.7558 15.518 14.7558 14.832C14.7558 14.1462 15.3139 13.5881 15.9997 13.5881C16.6858 13.5881 17.2439 14.1462 17.2439 14.832C17.2439 15.518 16.6858 16.0761 15.9997 16.0761ZM17.5354 12.0976C17.081 11.8415 16.5573 11.6946 15.9997 11.6946C15.4424 11.6946 14.9187 11.8413 14.4646 12.0974L9.66039 7.95311H22.3396L17.5354 12.0976ZM13.3567 22.385H18.6433C19.9824 22.385 21.1213 23.2587 21.5195 24.466H10.4805C10.8789 23.2587 12.0176 22.385 13.3567 22.385ZM24.0742 9.40403V18.1394H22.6179C22.3191 18.1394 22.0532 18.2778 21.8796 18.4939L18.9306 15.9499C19.0637 15.6025 19.1372 15.2258 19.1372 14.832C19.1372 14.3484 19.0271 13.8901 18.8308 13.4807L24.018 9.00584C24.0544 9.13255 24.0742 9.26585 24.0742 9.40403ZM13.1689 13.4804C12.9724 13.8899 12.8623 14.3484 12.8623 14.832C12.8623 15.2258 12.936 15.6028 13.0691 15.9504L10.1201 18.4941C9.94676 18.278 9.68065 18.1394 9.38207 18.1394H7.92577V9.40403C7.92577 9.26585 7.94555 9.13255 7.98168 9.00584L13.1689 13.4804ZM10.3288 3.5454C10.3288 2.63452 11.0698 1.89355 11.9807 1.89355H20.019C20.9299 1.89355 21.6711 2.63452 21.6711 3.5454V4.40771C21.6711 5.31859 20.9299 6.0598 20.019 6.0598H11.9807C11.0698 6.0598 10.3288 5.31859 10.3288 4.40771V3.5454Z"
-                                                        fill="#2D74BA" />
+                                                        d="M7.01587 11.6719H5.51587C5.12756 11.6719 4.81274 11.9867 4.81274 12.375C4.81274 12.7633 5.12756 13.0781 5.51587 13.0781H7.01587C7.40418 13.0781 7.71899 12.7633 7.71899 12.375C7.71899 11.9867 7.40418 11.6719 7.01587 11.6719Z"
+                                                        fill="#0F0F0F" />
+                                                    <path
+                                                        d="M7.01587 14.6719H5.51587C5.12756 14.6719 4.81274 14.9867 4.81274 15.375C4.81274 15.7633 5.12756 16.0781 5.51587 16.0781H7.01587C7.40418 16.0781 7.71899 15.7633 7.71899 15.375C7.71899 14.9867 7.40418 14.6719 7.01587 14.6719Z"
+                                                        fill="#0F0F0F" />
+                                                    <path
+                                                        d="M7.01587 17.6719H5.51587C5.12756 17.6719 4.81274 17.9867 4.81274 18.375C4.81274 18.7633 5.12756 19.0781 5.51587 19.0781H7.01587C7.40418 19.0781 7.71899 18.7633 7.71899 18.375C7.71899 17.9867 7.40418 17.6719 7.01587 17.6719Z"
+                                                        fill="#0F0F0F" />
+                                                    <path
+                                                        d="M13.0159 11.6719H11.5159C11.1276 11.6719 10.8127 11.9867 10.8127 12.375C10.8127 12.7633 11.1276 13.0781 11.5159 13.0781H13.0159C13.4042 13.0781 13.719 12.7633 13.719 12.375C13.719 11.9867 13.4042 11.6719 13.0159 11.6719Z"
+                                                        fill="#0F0F0F" />
+                                                    <path
+                                                        d="M13.0159 14.6719H11.5159C11.1276 14.6719 10.8127 14.9867 10.8127 15.375C10.8127 15.7633 11.1276 16.0781 11.5159 16.0781H13.0159C13.4042 16.0781 13.719 15.7633 13.719 15.375C13.719 14.9867 13.4042 14.6719 13.0159 14.6719Z"
+                                                        fill="#0F0F0F" />
+                                                    <path
+                                                        d="M13.0159 17.6719H11.5159C11.1276 17.6719 10.8127 17.9867 10.8127 18.375C10.8127 18.7633 11.1276 19.0781 11.5159 19.0781H13.0159C13.4042 19.0781 13.719 18.7633 13.719 18.375C13.719 17.9867 13.4042 17.6719 13.0159 17.6719Z"
+                                                        fill="#0F0F0F" />
+                                                    <path
+                                                        d="M19.0159 11.6719H17.5159C17.1276 11.6719 16.8127 11.9867 16.8127 12.375C16.8127 12.7633 17.1276 13.0781 17.5159 13.0781H19.0159C19.4042 13.0781 19.719 12.7633 19.719 12.375C19.719 11.9867 19.4042 11.6719 19.0159 11.6719Z"
+                                                        fill="#0F0F0F" />
+                                                    <path
+                                                        d="M19.0159 14.6719H17.5159C17.1276 14.6719 16.8127 14.9867 16.8127 15.375C16.8127 15.7633 17.1276 16.0781 17.5159 16.0781H19.0159C19.4042 16.0781 19.719 15.7633 19.719 15.375C19.719 14.9867 19.4042 14.6719 19.0159 14.6719Z"
+                                                        fill="#0F0F0F" />
+                                                    <path
+                                                        d="M19.0159 17.6719H17.5159C17.1276 17.6719 16.8127 17.9867 16.8127 18.375C16.8127 18.7633 17.1276 19.0781 17.5159 19.0781H19.0159C19.4042 19.0781 19.719 18.7633 19.719 18.375C19.719 17.9867 19.4042 17.6719 19.0159 17.6719Z"
+                                                        fill="#0F0F0F" />
+                                                    <path
+                                                        d="M22.1565 3.04688H20.469V1.875C20.469 1.48669 20.1542 1.17188 19.7659 1.17188C19.3776 1.17188 19.0627 1.48669 19.0627 1.875V3.04688H12.969V1.875C12.969 1.48669 12.6542 1.17188 12.2659 1.17188C11.8776 1.17188 11.5627 1.48669 11.5627 1.875V3.04688H5.46899V1.875C5.46899 1.48669 5.15418 1.17188 4.76587 1.17188C4.37756 1.17188 4.06274 1.48669 4.06274 1.875V3.04688H2.37524C1.21213 3.04688 0.265869 3.99314 0.265869 5.15625V20.7188C0.265869 21.8819 1.21213 22.8281 2.37524 22.8281H22.1565C23.3196 22.8281 24.2659 21.8819 24.2659 20.7188C24.2659 20.2649 24.2659 5.55117 24.2659 5.15625C24.2659 3.99314 23.3196 3.04688 22.1565 3.04688ZM1.67212 5.15625C1.67212 4.76855 1.98754 4.45313 2.37524 4.45313H4.06274V5.625C4.06274 6.01331 4.37756 6.32813 4.76587 6.32813C5.15418 6.32813 5.46899 6.01331 5.46899 5.625V4.45313H11.5627V5.625C11.5627 6.01331 11.8776 6.32813 12.2659 6.32813C12.6542 6.32813 12.969 6.01331 12.969 5.625V4.45313H19.0627V5.625C19.0627 6.01331 19.3776 6.32813 19.7659 6.32813C20.1542 6.32813 20.469 6.01331 20.469 5.625V4.45313H22.1565C22.5442 4.45313 22.8596 4.76855 22.8596 5.15625V7.92188H1.67212V5.15625ZM22.1565 21.4219H2.37524C1.98754 21.4219 1.67212 21.1065 1.67212 20.7188V9.32813H22.8596V20.7188C22.8596 21.1065 22.5442 21.4219 22.1565 21.4219Z"
+                                                        fill="#0F0F0F" />
                                                 </g>
                                                 <defs>
-                                                    <clipPath id="clip0_788_623">
-                                                        <rect width="32" height="32" fill="white" />
+                                                    <clipPath id="clip0_788_725">
+                                                        <rect width="24" height="24" fill="white" />
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                            <div class="block">
-                                                <p class="color-primary fw-600">
-                                                    <span class="h6 fw-700">Child Toddler Seat -</span>
-                                                    $ 20 per hire
-                                                </p>
-                                                <p class="mb-8"> Lorem ipsum dolor sit amet consectetur. Ut gravida
-                                                    netus
-                                                    consequat nisl amet viverra faucibus. Morbi.</p>
-                                            </div>
                                         </div>
-                                        <div class="quantity-wrap mb-8">
-                                            <input class="decrement" type="button" value="-">
-                                            <input type="text" name="quantity" value="1" maxlength="2" size="1"
-                                                class="number">
-                                            <input class="increment" type="button" value="+">
+                                        <div class="block">
+                                            <p>Data de Levantamento:</p>
+                                            <p class="mb-32">{{ $dados['pickup_date'] }}</p>
                                         </div>
                                     </div>
-                                    <div class="d-flex justify-content-between flex-md-row flex-column mb-32">
-                                        <div class="d-flex gap-32">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                                                viewBox="0 0 32 32" fill="none">
+                                    <div class="d-flex gap-8">
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
                                                 <path
-                                                    d="M27.542 24.6816C27.153 23.8033 26.4453 23.1289 25.5491 22.7829C25.1163 22.6158 24.6673 22.5375 24.2243 22.5411V17.0241C24.2243 15.8674 24.5424 14.734 25.1443 13.7463C25.6065 12.9878 25.8509 12.1173 25.8509 11.2291C25.8509 9.7145 25.1275 8.26781 23.9159 7.35906C23.326 6.91663 22.867 6.32187 22.5885 5.63912L21.9078 3.97062C20.9241 1.55856 18.6052 0 16.0001 0C13.3951 0 11.0762 1.55856 10.0923 3.97062L9.41172 5.63906C9.13322 6.32181 8.67422 6.91656 8.08429 7.359C6.87266 8.26775 6.14929 9.7145 6.14929 11.229C6.14929 12.1173 6.3936 12.9878 6.85585 13.7463C7.45772 14.734 7.77591 15.8674 7.77591 17.0241V22.5411C7.33285 22.5375 6.88379 22.6158 6.45104 22.7829C5.55491 23.1289 4.8471 23.8032 4.45816 24.6816C4.06916 25.5599 4.04554 26.5372 4.3916 27.4333L4.87879 28.6951C5.2561 29.6722 5.91216 30.5018 6.77597 31.0943C7.63979 31.6869 8.6501 32 9.69754 32H22.3027C23.3502 32 24.3604 31.6869 25.2242 31.0944C26.088 30.502 26.7441 29.6724 27.1214 28.6952L27.6086 27.4334C27.9547 26.5373 27.931 25.56 27.542 24.6816ZM20.8523 6.34725C21.2591 7.34438 21.9294 8.21294 22.7909 8.859C23.5329 9.4155 23.9759 10.3015 23.9759 11.229C23.9759 11.773 23.8262 12.306 23.5432 12.7706C22.7622 14.0523 22.3493 15.5232 22.3493 17.0241V23.0872C21.9569 23.3321 21.607 23.6551 21.3256 24.0497L20.9317 24.602H20.4743V21.4893C20.4743 16.0504 20.2368 10.5454 19.7684 5.12744L19.648 3.73469C19.8561 4.02281 20.033 4.3385 20.1718 4.67869L20.8523 6.34725ZM13.6563 11.7158H18.3439C18.3966 12.7304 18.4412 13.7458 18.4776 14.7612H13.5227C13.559 13.7458 13.6036 12.7304 13.6563 11.7158ZM13.4645 16.6362H18.5357C18.5621 17.6524 18.5802 18.6678 18.59 19.6816H13.4102C13.42 18.6678 13.4382 17.6524 13.4645 16.6362ZM18.0237 6.79544C18.103 7.80837 18.1741 8.82381 18.2371 9.84081H13.7632C13.8262 8.82381 13.8973 7.80837 13.9765 6.79544H18.0237ZM13.4009 21.5566H18.5992V24.602H13.4009V21.5566ZM16.0001 1.875C16.5707 1.875 17.1218 1.98106 17.6314 2.178L17.8685 4.92037H14.1317L14.3688 2.178C14.8784 1.98112 15.4295 1.875 16.0001 1.875ZM8.45704 12.7706C8.17397 12.306 8.02435 11.773 8.02435 11.229C8.02435 10.3015 8.46735 9.4155 9.20935 8.859C10.0708 8.21288 10.7412 7.34431 11.1479 6.34719L11.8285 4.67875C11.9672 4.33856 12.1442 4.02287 12.3523 3.73475L12.2319 5.12738C11.7635 10.5456 11.526 16.0506 11.526 21.4894V24.6019H11.0686L10.6747 24.0497C10.3933 23.6551 10.0433 23.3321 9.65103 23.0872V17.0241C9.65091 15.5232 9.2381 14.0523 8.45704 12.7706ZM25.8595 26.758L25.3723 28.0198C24.8861 29.2789 23.6524 30.125 22.3027 30.125H9.69754C8.34772 30.125 7.11416 29.279 6.62791 28.0198L6.14066 26.758C5.97504 26.3291 5.98635 25.8613 6.17254 25.4409C6.35872 25.0204 6.69747 24.6977 7.12641 24.532C7.32904 24.4538 7.53891 24.4162 7.74647 24.4162C8.29054 24.4162 8.81747 24.6749 9.14804 25.1384L10.1027 26.4769H21.8973L22.852 25.1384C23.3087 24.498 24.1399 24.2488 24.8736 24.532C25.3025 24.6976 25.6413 25.0204 25.8275 25.4408C26.0138 25.8613 26.0251 26.3291 25.8595 26.758Z"
-                                                    fill="#2D74BA" />
+                                                    d="M11.415 23.6869C11.5454 23.8825 11.7649 24 12 24C12.2351 24 12.4546 23.8825 12.585 23.6869C14.2491 21.1909 16.7 18.1084 18.408 14.9733C19.7736 12.4666 20.4375 10.3287 20.4375 8.4375C20.4375 3.78506 16.6524 0 12 0C7.34756 0 3.5625 3.78506 3.5625 8.4375C3.5625 10.3287 4.22639 12.4666 5.59205 14.9733C7.29872 18.106 9.75436 21.1961 11.415 23.6869ZM12 1.40625C15.877 1.40625 19.0312 4.56047 19.0312 8.4375C19.0312 10.0877 18.4234 12.0055 17.1731 14.3006C15.7009 17.0029 13.6 19.7441 12 22.0485C10.4002 19.7444 8.29922 17.003 6.82692 14.3006C5.57658 12.0055 4.96875 10.0877 4.96875 8.4375C4.96875 4.56047 8.12297 1.40625 12 1.40625Z"
+                                                    fill="#0F0F0F" />
+                                                <path
+                                                    d="M12 12.6562C14.3262 12.6562 16.2187 10.7637 16.2187 8.4375C16.2187 6.11128 14.3262 4.21875 12 4.21875C9.67378 4.21875 7.78125 6.11128 7.78125 8.4375C7.78125 10.7637 9.67378 12.6562 12 12.6562ZM12 5.625C13.5508 5.625 14.8125 6.88669 14.8125 8.4375C14.8125 9.98831 13.5508 11.25 12 11.25C10.4492 11.25 9.1875 9.98831 9.1875 8.4375C9.1875 6.88669 10.4492 5.625 12 5.625Z"
+                                                    fill="#0F0F0F" />
                                             </svg>
-                                            <div class="block">
-                                                <p class="color-primary fw-600">
-                                                    <span class="h6 fw-700">Booster Seat -</span>
-                                                    $ 30 per hire
-                                                </p>
-                                                <p class="mb-8">Lorem ipsum dolor sit amet consectetur. </p>
-                                            </div>
                                         </div>
-                                        <div class="quantity-wrap">
-                                            <input class="decrement" type="button" value="-">
-                                            <input type="text" name="quantity" value="1" maxlength="2" size="1"
-                                                class="number">
-                                            <input class="increment" type="button" value="+">
+                                        <div class="block">
+                                            <p>Local de Retirada:</p>
+                                            <p class="light-gray mb-32">{{ $dados['pickup_location'] }}</p>
                                         </div>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
                         </div>
                         <div class="booking-card-2 mt-32 py-40">
-                            <h5 class="mb-32">Enter Your Details</h5>
+                            <h5 class="mb-32">Insira seus dados</h5>
                             <div class="form">
-                                <div class="row row-gap-4">
-                                    <div class="col-lg-2">
-                                        <div class="drop-container">
-                                            <div class="wrapper-dropdown white" id="dropdown-1">
-                                                <span class="selected-display" id="destination-1">Gender</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14"
-                                                    viewBox="0 0 24 14" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M23.6138 0.639329C23.3322 0.35775 22.8757 0.357755 22.5941 0.639341L12.9331 10.3008C12.4181 10.8158 11.5828 10.8158 11.0678 10.3008L1.40635 0.639866C1.12465 0.358175 0.667927 0.358182 0.38623 0.639879C-0.12874 1.15485 -0.12874 1.99023 0.38623 2.50521L11.0676 13.186C11.5826 13.701 12.418 13.701 12.9329 13.186L23.6138 2.50466C24.1287 1.98969 24.1287 1.1543 23.6138 0.639329Z"
-                                                        fill="#2D74BA" />
-                                                </svg>
-                                                <ul class="topbar-dropdown ">
-                                                    <li class="item">Male</li>
-                                                    <li class="item">Female</li>
-                                                </ul>
+                                <form action="{{ route('reserva.confirmar') }}" method="POST">
+                                    @csrf
+                                    <input type="hidden" name="vehicle_id" value="{{ $vehicle->id }}">
+                                    <div class="row row-gap-4">
+                                        <div class="col-lg-2">
+                                            <div class="drop-container">
+                                                <div class="wrapper-dropdown white" id="dropdown-1">
+                                                    <span class="selected-display" id="destination-1">Genero</span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14"
+                                                        viewBox="0 0 24 14" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M23.6138 0.639329C23.3322 0.35775 22.8757 0.357755 22.5941 0.639341L12.9331 10.3008C12.4181 10.8158 11.5828 10.8158 11.0678 10.3008L1.40635 0.639866C1.12465 0.358175 0.667927 0.358182 0.38623 0.639879C-0.12874 1.15485 -0.12874 1.99023 0.38623 2.50521L11.0676 13.186C11.5826 13.701 12.418 13.701 12.9329 13.186L23.6138 2.50466C24.1287 1.98969 24.1287 1.1543 23.6138 0.639329Z"
+                                                            fill="#2D74BA" />
+                                                    </svg>
+                                                    <ul class="topbar-dropdown ">
+                                                        <li class="item">Homem</li>
+                                                        <li class="item">Mulher</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-5">
-                                        <input type="text" id="name-01" placeholder="First Name" name="name-1">
-                                    </div>
-                                    <div class="col-lg-5">
-                                        <input type="text" id="name-2" placeholder="Last Name" name="name-2">
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <input type="text" id="name-3" placeholder="Email" name="name-3">
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="drop-container">
-                                            <div class="wrapper-dropdown white" id="dropdown-2">
-                                                <span class="selected-display" id="destination-2">Your number</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14"
-                                                    viewBox="0 0 24 14" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M23.6138 0.639329C23.3322 0.35775 22.8757 0.357755 22.5941 0.639341L12.9331 10.3008C12.4181 10.8158 11.5828 10.8158 11.0678 10.3008L1.40635 0.639866C1.12465 0.358175 0.667927 0.358182 0.38623 0.639879C-0.12874 1.15485 -0.12874 1.99023 0.38623 2.50521L11.0676 13.186C11.5826 13.701 12.418 13.701 12.9329 13.186L23.6138 2.50466C24.1287 1.98969 24.1287 1.1543 23.6138 0.639329Z"
-                                                        fill="#2D74BA" />
-                                                </svg>
-                                                <ul class="topbar-dropdown ">
-                                                    <li class="item">0312555055</li>
-                                                    <li class="item">0325885994</li>
-                                                    <li class="item">0369694515</li>
-                                                    <li class="item">0305346569</li>
-                                                </ul>
-                                            </div>
+                                        <div class="col-lg-5">
+                                            <input type="text" id="name" placeholder="Nome Completo" name="name">
                                         </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="drop-container">
-                                            <div class="wrapper-dropdown white" id="dropdown-3">
-                                                <span class="selected-display" id="destination-3">Country</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14"
-                                                    viewBox="0 0 24 14" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M23.6138 0.639329C23.3322 0.35775 22.8757 0.357755 22.5941 0.639341L12.9331 10.3008C12.4181 10.8158 11.5828 10.8158 11.0678 10.3008L1.40635 0.639866C1.12465 0.358175 0.667927 0.358182 0.38623 0.639879C-0.12874 1.15485 -0.12874 1.99023 0.38623 2.50521L11.0676 13.186C11.5826 13.701 12.418 13.701 12.9329 13.186L23.6138 2.50466C24.1287 1.98969 24.1287 1.1543 23.6138 0.639329Z"
-                                                        fill="#2D74BA" />
-                                                </svg>
-                                                <ul class="topbar-dropdown ">
-                                                    <li class="item">Pakistan</li>
-                                                    <li class="item">India</li>
-                                                    <li class="item">Spain</li>
-                                                    <li class="item">Italy</li>
-                                                </ul>
-                                            </div>
+                                        <div class="col-lg-5">
+                                            <input type="email" id="email" placeholder="Email" name="email">
                                         </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="drop-container">
-                                            <div class="wrapper-dropdown white" id="dropdown-4">
-                                                <span class="selected-display" id="destination-4">City</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14"
-                                                    viewBox="0 0 24 14" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M23.6138 0.639329C23.3322 0.35775 22.8757 0.357755 22.5941 0.639341L12.9331 10.3008C12.4181 10.8158 11.5828 10.8158 11.0678 10.3008L1.40635 0.639866C1.12465 0.358175 0.667927 0.358182 0.38623 0.639879C-0.12874 1.15485 -0.12874 1.99023 0.38623 2.50521L11.0676 13.186C11.5826 13.701 12.418 13.701 12.9329 13.186L23.6138 2.50466C24.1287 1.98969 24.1287 1.1543 23.6138 0.639329Z"
-                                                        fill="#2D74BA" />
-                                                </svg>
-                                                <ul class="topbar-dropdown ">
-                                                    <li class="item">Faislabad</li>
-                                                    <li class="item">Lahore</li>
-                                                    <li class="item">sialkot</li>
-                                                    <li class="item">bawalpur</li>
-                                                </ul>
-                                            </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" id="contacto" placeholder="Contacto" name="contacto">
                                         </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" id="endereco" placeholder="Endereço" name="endereco">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="date" id="data_nascimento" placeholder="Data de Nascimento" name="data_nascimento">
+                                        </div>
+                                        <input type="hidden" name="pickup_location" id="pickup_location" value="{{ $dados['pickup_location'] }}">
+                                        <input type="hidden" name="pickup_date" id="pickup_date" value="{{ $dados['pickup_date'] }}">
+                                        <input type="hidden" name="dropoff_location" id="dropoff_location" value="{{ $dados['dropoff_location'] }}">
+                                        <input type="hidden" name="dropoff_date" id="dropoff_date" value="{{ $dados['dropoff_date'] }}">
+                                        <input type="hidden" name="pickup_time" id="pickup_time" value="{{ $dados['pickup_time'] }}">
+                                        <input type="hidden" name="dropoff_time" id="dropoff_time" value="{{ $dados['dropoff_time'] }}">
+
                                     </div>
-                                    <div class="col-lg-6">
-                                        <input type="text" id="name-6" placeholder="Address" name="name-2">
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <input type="text" id="name-15" placeholder="Flight number" name="name-3">
-                                    </div>
-                                </div>
+                                    <div class="text-end mb-12">
+                            <button type="submit" class="cus-btn mt-24 bookingProcced">
+                                <span class="btn-text">
+                                    Alugar
+                                </span>
+                                <span>
+                                    Alugar
+                                </span>
+                            </button>
+                        </div>
+                                </form>
                             </div>
                         </div>
                         <div class="booking-card-3 mt-32 py-40">
@@ -230,16 +180,7 @@
                             <p>By signing in or creating an account, you agree with our <span> Terms & conditions</span>
                             </p>
                         </div>
-                        <div class="text-end mb-12">
-                            <button type="button" class="cus-btn mt-24 bookingProcced">
-                                <span class="btn-text">
-                                    Alugar
-                                </span>
-                                <span>
-                                    Alugar
-                                </span>
-                            </button>
-                        </div>
+                        
                     </div>
                     <div class="steptwo">
 
@@ -361,8 +302,8 @@
                             <h5>Car Detail</h5>
                         </div>
                         <div class="vehicle-details-2 bg-ter">
-                            <h6>Audi A6</h6>
-                            <p class="mb-24">Hyundai Accentor similar</p>
+                            <h6>{{$vehicle->model['name']}}</h6>
+                            <p class="mb-24">{{$vehicle->model->brand['name']}}</p>
                             <div class="d-flex justify-content-between flex-xl-row flex-column flex-end mb-24">
                                 <img src="assets/media/cars/Car-image.png" alt="Car">
                                 <div class="icons gap-8 d-flex align-items-end">
@@ -524,35 +465,35 @@
                     </div>
                     <div class="side-bar mt-32">
                         <div class="vehicle-details bg-quant">
-                            <h4>Price Summary</h4>
+                            <h4>Resumo de preços</h4>
                         </div>
                         <div class="vehicle-details-2 bg-ter">
                             <div class="justify-content-between d-flex mb-24">
                                 <div>
-                                    <h6>Car Hire Fee</h6>
-                                    <p class="dark-gray">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h6>Preço/Dia</h6>
+                                    {{-- <p class="dark-gray">Lorem ipsum dolor sit amet consectetur.</p> --}}
                                 </div>
-                                <h6>$ 140</h6>
+                                <h6>kz {{number_format($vehicle->model->price_per_day,'0',',','.')}} /Dia</h6>
                             </div>
                             <div class="justify-content-between d-flex mb-24">
                                 <div>
-                                    <h6>Additional Driver</h6>
-                                    <p class="dark-gray">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h6>Descontos</h6>
+                                    {{-- <p class="dark-gray">Lorem ipsum dolor sit amet consectetur.</p> --}}
                                 </div>
-                                <h6>$ 50</h6>
+                                <h6>000.00</h6>
                             </div>
                             <hr class="color-primary mb-12">
-                            <div class="justify-content-between d-flex mb-32">
+                            {{-- <div class="justify-content-between d-flex mb-32">
                                 <div>
                                     <h6>Deal / Discount</h6>
                                 </div>
                                 <h6>$ 40</h6>
-                            </div>
+                            </div> --}}
                             <div class="justify-content-between d-flex">
                                 <div>
                                     <h6>Total</h6>
                                 </div>
-                                <h6>$ 240</h6>
+                                <h6>kz {{number_format($vehicle->model->price_per_day,'0',',','.')}}</h6>
                             </div>
                         </div>
                     </div>

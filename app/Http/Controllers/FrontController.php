@@ -39,9 +39,9 @@ class FrontController extends Controller
         return view('carro-detalhes', compact('vehicle'));
     }
 
-    public function reservaDetalhes(Request $request){
-        // dd($request->all());
-         return view('reserva-detalhes');
+    // public function reservaDetalhes(Request $request){
 
-    }
+    //      return view('reserva-detalhes');
+
+    // }
 }

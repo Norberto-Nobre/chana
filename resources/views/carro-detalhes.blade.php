@@ -10,7 +10,7 @@
 
     <!-- About-area start -->
     <section class="details py-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row row-gap-4">
                 <div class="col-lg-8">
                     <div class="slider-arrows smt-sm-0 mt-48 d-sm-flex">
@@ -35,10 +35,37 @@
                         <div class="rental-slide">
                             <img src="{{asset('storage/' . $vehicle->model->image)}}" alt="banner">
                         </div>
+                        <div class="rental-slide">
+                            <img src="{{asset('storage/' . $vehicle->model->image)}}" alt="banner">
+                        </div>
+                        <div class="rental-slide">
+                            <img src="{{asset('storage/' . $vehicle->model->image)}}" alt="banner">
+                        </div>
+                        <div class="rental-slide">
+                            <img src="{{asset('storage/' . $vehicle->model->image)}}" alt="banner">
+                        </div>
+                        <div class="rental-slide">
+                            <img src="{{asset('storage/' . $vehicle->model->image)}}" alt="banner">
+                        </div>
+                        <div class="rental-slide">
+                            <img src="{{asset('storage/' . $vehicle->model->image)}}" alt="banner">
+                        </div>
+                        <div class="rental-slide">
+                            <img src="{{asset('storage/' . $vehicle->model->image)}}" alt="banner">
+                        </div>
+                        <div class="rental-slide">
+                            <img src="{{asset('storage/' . $vehicle->model->image)}}" alt="banner">
+                        </div>
+                        <div class="rental-slide">
+                            <img src="{{asset('storage/' . $vehicle->model->image)}}" alt="banner">
+                        </div>
+                        <div class="rental-slide">
+                            <img src="{{asset('storage/' . $vehicle->model->image)}}" alt="banner">
+                        </div>
                     </div>
                     <div class="as-nav-slider">
                         <div class="img-box">
-                            <img src="{{asset('assets/media/cars/pngwing-12.png')}}" alt="car">
+                            <img src="{{asset('storage/' . $vehicle->model->image)}}" alt="car">
                         </div>
                         <div class="img-box">
                             <img src="{{asset('assets/media/cars/pngwing-13.png')}}" alt="car">
@@ -106,7 +133,7 @@
                         </div>
                     </div>
                     <div class="side-bar-2 mt-24">
-                        <form action="{{ route('reserva.detalhes') }}" method="POST" class="form">
+                        <form action="{{ route('reserva.detalhes') }}" method="GET" class="form">
                             @csrf
                             <h5 class="mb-24">Verificar disponibilidade</h5>
                             <p class="mb-8 fw-600 dark-gray">Local de retirada</p>
@@ -140,7 +167,7 @@
     </section>
     <!--title start  -->
     <section class="services py-80 ">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row row-gap-4">
                 <div class="col-lg-8">
                     <div class="banner mb-24">
