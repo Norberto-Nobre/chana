@@ -27,9 +27,11 @@ class PanelPanelProvider extends PanelProvider
             ->id('panel')
             ->path('panel')
             ->login()
-            ->registration()
+            ->brandLogo(asset('favicon.png'))
+            ->favicon(asset('favicon.png'))
+             ->brandLogoHeight('40px')
             ->colors([
-                'primary' => Color::Amber,
+                'primary' => '#1E40AF', // azul escuro (hexadecimal)
             ])
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')

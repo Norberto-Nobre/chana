@@ -5034,4 +5034,13 @@ footer .input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggl
   }
 }
 
+.whatsapp{
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  z-index: 999999;
+
+}
+
+
 /*# sourceMappingURL=app.css.map */

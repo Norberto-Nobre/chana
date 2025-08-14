@@ -14,7 +14,7 @@
        <!-- Camada azul com transparência -->
     <div class="overlay-blue"></div>
       <div class="carousel-caption d-none d-md-block edit-1">
-       <div class="container">
+       <div class="container animate__animated animate__fadeInUp animate__delay-2s">
             <h4 class="mb-16">
                 <span class="h2 text-white">Chana RENT-A-CAR </span><br>
                 <p class="fs-5 text-white mt-3 mb-2">Carros modernos, revisados e confortáveis, prontos para levar você ao seu destino com segurança e estilo. <strong>Reserve agora e comece sua aventura hoje!</strong></p>
@@ -51,7 +51,7 @@
        <!-- Camada azul com transparência -->
     <div class="overlay-blue"></div>
       <div class="carousel-caption d-none d-md-block edit-2">
-        <div class="container">
+        <div class="container animate__animated animate__fadeInDown animate__delay-1s">
             <h4 class="mb-16">
                 <span class="h2 text-white">Aluguel com preço justo </span><br>
                 <p class="fs-5 text-white">Planos flexíveis e preços competitivos para aproveitar cada viagem sem pesar no orçamento.<strong>Escolha seu carro e garanta a melhor oferta!</strong></p>
@@ -89,7 +89,7 @@
     <!-- Camada azul com transparência -->
     <div class="overlay-blue"></div>
     <div class="carousel-caption d-none d-md-block edit-2">
-        <div class="container">
+        <div class="container animate__animated animate__fadeInLeft animate__delay-1s">
             <h4 class="mb-16">
                 <span class="h2 text-white">Seu destino, nossa missão </span><br>
                 <p class="fs-5 text-white">Da cidade ao interior, da curta à longa distância — estamos com você em cada quilômetro da sua jornada.<strong>Dirija com liberdade e tranquilidade!</strong></p>
@@ -139,7 +139,7 @@
     <div class="booking my-80">
         <div class="container">
             <form action="index.html">
-                <div class="row row-gap-3 mb-24">
+                <div class="row row-gap-3 mb-24 animate__animated animate__fadeInUp animate__delay-2s">
                     <div class="col-lg-12">
                         <div class="input-type">
                             <div class="w-100">
@@ -208,7 +208,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-center">
+                <div class="text-center animate__animated animate__fadeInUp animate__delay-2s">
                     <a href="{{route('front.cars')}}" class="cus-btn">
                         <span class="btn-text">
                             Escolher Carro
@@ -228,7 +228,7 @@
     <!-- Feature area start -->
     <section class="features my-80">
         <div class="container">
-            <div class="row row-gap-3 justify-content-center">
+            <div class="row row-gap-3 justify-content-center animate__animated animate__fadeInUp animate__delay-2s">
                 <div class="col-lg-4 col-md-6 justify-content-center">
                     <div class="info">
                         <h3 class="black-2 mb-32">10+ Anos</h3>
@@ -254,12 +254,12 @@
 
     <!-- Top vehicle area start -->
     <section class="vehicles pb-48">
-        <div class="container">
+        <div class="container animate__animated animate__fadeInUp animate__delay-2s">
             <div class="heading mb-48 mt-48">
                 <div class="description">
                     <h4 class="mb-12">Veículos mais bem <br> escolhidos deste Mês</h4>
                         <p>
-                        Descubra os modelos preferidos pelos nossos clientes nos últimos dias. Destaques em conforto, economia e desempenho. </p>
+                        Descubra os modelos preferidos pelos nossos clientes nos últimos dias.<br> Destaques em conforto, economia e desempenho. </p>
                 </div>
                 <a href="{{route('front.cars')}}" class="cus-btn">
                     <span class="btn-text">
@@ -612,7 +612,7 @@
                 </div>
                 <div class="row row-gap-4">
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <a href="rental-sidebar.html" class="cards">
+                        <a href="{{route('front.cars')}}" class="cards">
                             <div class="title">
                                 <h5>Electric</h5>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
@@ -626,7 +626,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <a href="rental-sidebar.html" class="cards">
+                        <a href="{{route('front.cars')}}" class="cards">
                             <div class="title">
                                 <h5>Sedan</h5>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
@@ -640,7 +640,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <a href="" class="cards">
+                        <a href="{{route('front.cars')}}" class="cards">
                             <div class="title">
                                 <h5>Suv</h5>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
@@ -654,7 +654,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <a href="rental-sidebar.html" class="cards">
+                        <a href="{{route('front.cars')}}" class="cards">
                             <div class="title">
                                 <h5>Pick-Up</h5>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
@@ -668,7 +668,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <a href="rental-sidebar.html" class="cards">
+                        <a href="{{route('front.cars')}}" class="cards">
                             <div class="title">
                                 <h5>Hatch Back</h5>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
@@ -682,7 +682,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <a href="rental-sidebar.html" class="cards">
+                        <a href="{{route('front.cars')}}" class="cards">
                             <div class="title">
                                 <h5>Van</h5>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
