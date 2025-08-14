@@ -75,15 +75,19 @@ class VehicleModelResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('brand_id')
-                    ->numeric()
+                Tables\Columns\ImageColumn::make('image')
+                    ->disk('public'),
+                Tables\Columns\TextColumn::make('brand.name')
+                    ->label('Marca')
                     ->sortable(),
-                Tables\Columns\TextColumn::make('category_id')
-                    ->numeric()
+                Tables\Columns\TextColumn::make('category.name')
+                    ->label('Categoria')
                     ->sortable(),
                 Tables\Columns\TextColumn::make('name')
+                    ->label('Modelo')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('year')
+                    ->label('Ano')
                     ->numeric()
                     ->sortable(),
                 Tables\Columns\TextColumn::make('fuel_type'),
@@ -97,8 +101,6 @@ class VehicleModelResource extends Resource
                 Tables\Columns\TextColumn::make('price_per_day')
                     ->numeric()
                     ->sortable(),
-                Tables\Columns\ImageColumn::make('image')
-                    ->disk('public'),
                 Tables\Columns\IconColumn::make('is_active')
                     ->boolean(),
                 Tables\Columns\TextColumn::make('created_at')

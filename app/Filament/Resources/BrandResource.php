@@ -37,9 +37,9 @@ class BrandResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('name')
+                 Tables\Columns\ImageColumn::make('logo')
                     ->searchable(),
-                Tables\Columns\ImageColumn::make('logo')
+                Tables\Columns\TextColumn::make('name')
                     ->searchable(),
                 Tables\Columns\IconColumn::make('is_active')
                     ->boolean(),
