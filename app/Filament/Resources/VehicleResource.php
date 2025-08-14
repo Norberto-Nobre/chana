@@ -88,8 +88,9 @@ class VehicleResource extends Resource
             ->filters([
                 //
             ])
-            ->actions([
+           ->actions([
                 Tables\Actions\EditAction::make(),
+                Tables\Actions\DeleteAction::make(),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
