@@ -282,7 +282,7 @@
                     <div class="row row-gap-3">
                         <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
                             <div class="vehicle-card">
-                                <a href="{{asset('/carro-detalhes')}}">
+                                <a href="javascript:void(0);">
                                     <img src="assets/media/cars/car2.png" alt="car">
                                     <h3 class="h3 title">Audi A6</h3>
                                     <p class="mb-12">Available</p>
@@ -327,7 +327,7 @@
                         </div>
                         <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
                             <div class="vehicle-card">
-                                <a href="{{asset('/carro-detalhes')}}">
+                                <a href="javascript:void(0);">
                                     <img src="assets/media/cars/iamge.png" alt="car">
                                     <h3 class="h3 title">Toyota Camry</h3>
                                     <p class="mb-12">Available</p>
@@ -372,7 +372,7 @@
                         </div>
                         <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
                             <div class="vehicle-card">
-                                <a href="{{asset('/carro-detalhes')}}">
+                                <a href="javascript:void(0);">
                                     <img src="assets/media/cars/image2.png" alt="car">
                                     <h3 class="h3 title">Chevrolet</h3>
                                     <p class="mb-12">Available</p>
@@ -417,7 +417,7 @@
                         </div>
                         <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
                             <div class="vehicle-card">
-                                <a href="{{asset('/carro-detalhes')}}">
+                                <a href="javascript:void(0);">
                                     <img src="assets/media/cars/iamge.png" alt="car">
                                     <h3 class="h3 title">Toyota Camry</h3>
                                     <p class="mb-12">Available</p>
@@ -462,7 +462,7 @@
                         </div>
                         <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
                             <div class="vehicle-card">
-                                <a href="{{asset('/carro-detalhes')}}">
+                                <a href="javascript:void(0);">
                                     <img src="assets/media/cars/iamge3.png" alt="car">
                                     <h3 class="h3 title">Porsche Panamera</h3>
                                     <p class="mb-12">Available</p>
@@ -507,7 +507,7 @@
                         </div>
                         <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
                             <div class="vehicle-card">
-                                <a href="{{asset('/carro-detalhes')}}">
+                                <a href="javascript:void(0);">
                                     <img src="assets/media/cars/iamge4.png" alt="car">
                                     <h3 class="h3 title">Ford F-150S</h3>
                                     <p class="mb-12">Available</p>

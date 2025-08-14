@@ -275,7 +275,7 @@
             <div class="row row-gap-3">
                 <div class="col-xxl-3 col-lg-4 col-md-6">
                     <div class="vehicle-card">
-                        <a href="{{asset('/carro-detalhes')}}">
+                        <a href="{{route('front.cars')}}">
                             <img src="assets/media/cars/image2.png" class="w-100" alt="car">
                             <h3 class="h3 title">Chevrolet</h3>
                             <p class="mb-12">Disponivel</p>
@@ -320,7 +320,7 @@
                 </div>
                 <div class="col-xxl-3 col-lg-4 col-md-6">
                     <div class="vehicle-card">
-                        <a href="{{asset('/carro-detalhes')}}">
+                        <a href="{{route('front.cars')}}">
                             <img src="assets/media/cars/iamge.png" class="w-100" alt="car">
                             <h3 class="h3 title">Toyota Camry</h3>
                             <p class="mb-12">Disponivel</p>
@@ -365,7 +365,7 @@
                 </div>
                 <div class="col-xxl-3 col-lg-4 col-md-6">
                     <div class="vehicle-card">
-                        <a href="{{asset('/carro-detalhes')}}">
+                        <a href="{{route('front.cars')}}">
                             <img src="assets/media/cars/iamge3.png" class="w-100" alt="car">
                             <h3 class="h3 title">Porsche Panamera</h3>
                             <p class="mb-12">Disponivel</p>
@@ -410,7 +410,7 @@
                 </div>
                 <div class="col-xxl-3 col-lg-4 col-md-6 d-xxl-block d-lg-none">
                     <div class="vehicle-card">
-                        <a href="{{asset('/carro-detalhes')}}">
+                        <a href="{{route('front.cars')}}">
                             <img src="assets/media/cars/iamge4.png" class="w-100" alt="car">
                             <h3 class="h3 title">Ford F-150S</h3>
                             <p class="mb-12">Disponivel</p>

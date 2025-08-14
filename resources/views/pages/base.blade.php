@@ -44,7 +44,7 @@
                     <h6 class="white mb-16">Assine nossa newsletter</h6>
                     <form action="index.html" class="newsletter-form">
                         <input type="email" name="email" id="eMail" class="form-input"
-                            placeholder=" Your email address">
+                            placeholder="Seu E-mail">
                         <button type="submit">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                 viewBox="0 0 20 20" fill="none">
@@ -70,10 +70,10 @@
                                         <a href="{{asset('/about')}}">Sobre</a>
                                     </li>
                                     <li class="mb-12">
-                                        <a href="{{asset('/carros')}}">Carros</a>
+                                        <a href="{{route('front.cars')}}">Carros</a>
                                     </li>
                                     <li class="mb-12">
-                                        <a href="{{asset('/contacto')}}">Contactos</a>
+                                        <a href="{{route('front.contact')}}">Contactos</a>
                                     </li>
                                 </ul>
                             </div>
@@ -83,13 +83,13 @@
                                 <h6 class="mb-32">Acesso</h6>
                                 <ul class="unstyled">
                                     <li class="mb-12">
-                                        <a href="rental.html">Login</a>
+                                        <a href="javascript:void(0);">Login</a>
                                     </li>
                                     <li class="mb-12">
-                                        <a href="book-now.html">Register</a>
+                                        <a href="javascript:void(0);">Register</a>
                                     </li>
                                     <li class="mb-12">
-                                        <a href="booking.html">Termos & Políticas</a>
+                                        <a href="javascript:void(0);">Termos & Políticas</a>
                                     </li>
                                     {{-- <li class="mb-12">
                                         <a href="index.html">Brands</a>
@@ -155,7 +155,7 @@
             <div class="hr-line  bg-light-gray"></div>
             <p class="mt-32 pb-32 text-center">@2025 All Rights <span
                     class="fw-700 color-sec">CHANA-A-CAR.</span>
-                By EGATECLOUD</p>
+                <a href="https://egatecloud.ao/">By EGATECLOUD</a></p>
         </div>
     </footer>
     <!--Footer-end -->
