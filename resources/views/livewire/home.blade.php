@@ -1,3 +1,159 @@
+ <style>
+
+        .main-container {
+            /* min-height: 100vh; */
+            display: flex;
+            align-items: center;
+            padding: 0;
+        }
+
+        .card-section {
+            position: relative;
+            margin-left: 20px;
+            /* height: 100vh; */
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            cursor: pointer;
+        }
+
+        .card-section:hover {
+            box-shadow: none;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .card-section:hover .card-image {
+            transform: scale(1.1);
+        }
+
+        .card-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(45, 116, 186, 0.1));
+            transition: all 0.4s ease;
+        }
+
+        .card-section:hover .card-overlay {
+            background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(45, 116, 186, 0.4));
+        }
+
+        .card-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 40px;
+            color: white;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+            transform: translateY(20px);
+            transition: all 0.4s ease;
+        }
+
+        .card-section:hover .card-content {
+            transform: translateY(0);
+        }
+
+        .card-title {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #2d74ba;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            line-height: 1.2;
+        }
+
+        .card-text {
+            font-size: 16px;
+            margin-bottom: 25px;
+            color: #ffffff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+            line-height: 1.4;
+            opacity: 0.9;
+        }
+
+        .btn-solicitar {
+            background: linear-gradient(135deg, #2d74ba 0%, #1e5a99 100%);
+            border: none;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(45, 116, 186, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-solicitar:hover {
+            background: linear-gradient(135deg, #1e5a99 0%, #2d74ba 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(45, 116, 186, 0.4);
+            color: white;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .main-title {
+            font-size: 48px;
+            font-weight: 800;
+            color: #2d74ba;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-subtitle {
+            font-size: 20px;
+            color: #666;
+            font-weight: 300;
+        }
+
+        @media (max-width: 768px) {
+            .card-title {
+                font-size: 22px;
+            }
+
+            .card-text {
+                font-size: 14px;
+            }
+
+            .card-content {
+                padding: 25px;
+            }
+
+            .card-section {
+                /* height: 50vh; */
+            }
+        }
+
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(45, 116, 186, 0.4);
+            }
+            70% {
+                box-shadow: 0 0 0 10px rgba(45, 116, 186, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(45, 116, 186, 0);
+            }
+        }
+    </style>
+
 <div>
      @include('pages.header')
 
@@ -136,7 +292,7 @@
     <!-- HERO BANNER END -->
 
     <!-- Booking-form area start -->
-    <div class="booking my-80">
+    {{-- <div class="booking my-80">
         <div class="container">
             <form action="index.html">
                 <div class="row row-gap-3 mb-24 animate__animated animate__fadeInUp animate__delay-2s">
@@ -222,11 +378,43 @@
                 </div>
             </form>
         </div>
-    </div>
+    </div> --}}
     <!--Booking-form area end -->
 
+    <section class="main-container mt-5">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="card-section" onclick="handleSolicitar('confianca')">
+                        <img class="" src="assets/media/banners/banner2.jpg" alt="car">
+
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h2 class="card-title">Dirija com confiança, viaje com tranquilidade!</h2>
+                            <p class="card-text">Segurança, conforto e praticidade em cada quilômetro.</p>
+                            <button class="btn btn-solicitar pulse-animation">Solicitar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="card-section" onclick="handleSolicitar('estilo')">
+                        <img src="assets/media/banners/banner3.jpg" alt="car">
+
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h2 class="card-title">Chegue onde quiser com estilo e conforto.</h2>
+                            <p class="card-text">Carros modernos, prontos para acompanhar o seu ritmo.</p>
+                            <button class="btn btn-solicitar pulse-animation">Solicitar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Feature area start -->
-    <section class="features my-80">
+    {{-- <section class="features my-80">
         <div class="container">
             <div class="row row-gap-3 justify-content-center animate__animated animate__fadeInUp animate__delay-2s">
                 <div class="col-lg-4 col-md-6 justify-content-center">
@@ -249,7 +437,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--Feature area end-->
 
     <!-- Top vehicle area start -->
@@ -1175,5 +1363,5 @@
         </div>
     </section> --}}
     <!-- Booking-form-end -->
-    
+
      </div>
